@@ -1,0 +1,3040 @@
+#COMMAND
+Name        "~
+Code        do_think
+Level       61
+Flags       1024
+End
+
+#COMMAND
+Name        '~
+Code        do_say
+Position    5
+End
+
+#COMMAND
+Name        *~
+Code        do_muse
+Level       74
+Flags       1024
+End
+
+#COMMAND
+Name        ,~
+Code        do_emote
+Position    5
+End
+
+#COMMAND
+Name        :~
+Code        do_emote
+Position    5
+End
+
+#COMMAND
+Name        ;~
+Code        do_gtell
+End
+
+#COMMAND
+Name        ?~
+Code        do_help
+End
+
+#COMMAND
+Name        at~
+Code        do_at
+Level       62
+Flags       32
+End
+
+#COMMAND
+Name        authorize~
+Code        do_authorize
+Level       61
+Log         1
+Flags       2048
+End
+
+#COMMAND
+Name        auction~
+Code        do_auction
+Position    4
+Level       3
+End
+
+#COMMAND
+Name        affected~
+Code        do_affected
+Position    4
+End
+
+#COMMAND
+Name        afk~
+Code        do_afk
+Position    4
+End
+
+#COMMAND
+Name        ansi~
+Code        do_ansi
+End
+
+#COMMAND
+Name        answer~
+Code        do_answer
+Position    4
+End
+
+#COMMAND
+Name        aassign~
+Code        do_aassign
+Level       63
+Log         1
+Flags       68
+End
+
+#COMMAND
+Name        advance~
+Code        do_advance
+Level       70
+Log         1
+Flags       96
+End
+
+#COMMAND
+Name        allow~
+Code        do_allow
+Level       68
+Log         1
+Flags       2048
+End
+
+#COMMAND
+Name        appraise~
+Code        do_appraise
+Position    5
+End
+
+#COMMAND
+Name        areas~
+Code        do_areas
+End
+
+#COMMAND
+Name        aset~
+Code        do_aset
+Level       69
+Log         1
+Flags       644
+End
+
+#COMMAND
+Name        ask~
+Code        do_ask
+Position    4
+End
+
+#COMMAND
+Name        assist~
+Code        do_assist
+Position    7
+Level       1
+End
+
+#COMMAND
+Name        astat~
+Code        do_astat
+Level       64
+Flags       72
+End
+
+#COMMAND
+Name        apply~
+Code        do_apply
+Level       1
+End
+
+#COMMAND
+Name        alias~
+Code        do_alias
+End
+
+#COMMAND
+Name        avtalk~
+Code        do_avtalk
+Level       51
+End
+
+#COMMAND
+Name        acro~
+Code        do_acro
+End
+
+#COMMAND
+Name        aspell~
+Code        do_aspell
+Level       65
+Flags       2
+End
+
+#COMMAND
+Name        attribute~
+Code        do_attrib
+End
+
+#COMMAND
+Name        balance~
+Code        do_balance
+Position    8
+End
+
+#COMMAND
+Name        buy~
+Code        do_buy
+Position    5
+End
+
+#COMMAND
+Name        brandish~
+Code        do_brandish
+Position    6
+End
+
+#COMMAND
+Name        bamfin~
+Code        do_bamfin
+Level       61
+Flags       32
+End
+
+#COMMAND
+Name        bamfout~
+Code        do_bamfout
+Level       61
+Flags       32
+End
+
+#COMMAND
+Name        ban~
+Code        do_ban
+Level       68
+Log         1
+Flags       2048
+End
+
+#COMMAND
+Name        bestow~
+Code        do_bestow
+Level       71
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        bio~
+Code        do_bio
+Level       5
+End
+
+#COMMAND
+Name        bodybag~
+Code        do_bodybag
+Level       70
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        boards~
+Code        do_boards
+Level       62
+Flags       8
+End
+
+#COMMAND
+Name        bstat~
+Code        do_bstat
+Level       68
+Flags       8
+End
+
+#COMMAND
+Name        bug~
+Code        do_bugtrack
+End
+
+#COMMAND
+Name        bury~
+Code        do_bury
+Position    8
+End
+
+#COMMAND
+Name        bestowarea~
+Code        do_bestowarea
+Level       69
+Log         1
+Flags       4
+End
+
+#COMMAND
+Name        beep~
+Code        do_beep
+End
+
+#COMMAND
+Name        busy~
+Code        do_busy
+End
+
+#COMMAND
+Name        bset~
+Code        do_bset
+Level       71
+Flags       576
+End
+
+#COMMAND
+Name        bet~
+Code        do_bet
+Position    5
+End
+
+#COMMAND
+Name        bugtrack~
+Code        do_bugtrack
+Level       65
+Flags       32
+End
+
+#COMMAND
+Name        cast~
+Code        do_cast
+Position    4
+End
+
+#COMMAND
+Name        clantalk~
+Code        do_clantalk
+End
+
+#COMMAND
+Name        close~
+Code        do_close
+Position    5
+End
+
+#COMMAND
+Name        consider~
+Code        do_consider
+Position    5
+End
+
+#COMMAND
+Name        channels~
+Code        do_channels
+End
+
+#COMMAND
+Name        chat~
+Code        do_gossip
+Position    3
+End
+
+#COMMAND
+Name        checkvnums~
+Code        do_check_vnums
+Level       65
+Flags       12
+End
+
+#COMMAND
+Name        clans~
+Code        do_clans
+End
+
+#COMMAND
+Name        cedit~
+Code        do_cedit
+Level       71
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        copyover~
+Code        do_copyover
+Level       70
+Log         1
+Flags       2048
+End
+
+#COMMAND
+Name        coinduct~
+Code        do_council_induct
+Level       65
+Flags       192
+End
+
+#COMMAND
+Name        compare~
+Code        do_compare
+Position    5
+End
+
+#COMMAND
+Name        color~
+Code        do_color
+End
+
+#COMMAND
+Name        commands~
+Code        do_commands
+End
+
+#COMMAND
+Name        comment~
+Code        do_comment
+Position    5
+End
+
+#COMMAND
+Name        config~
+Code        do_config
+End
+
+#COMMAND
+Name        cooutcast~
+Code        do_council_outcast
+Level       65
+Flags       320
+End
+
+#COMMAND
+Name        counciltalk~
+Code        do_counciltalk
+End
+
+#COMMAND
+Name        councils~
+Code        do_councils
+End
+
+#COMMAND
+Name        credits~
+Code        do_credits
+End
+
+#COMMAND
+Name        cset~
+Code        do_cset
+Level       71
+Log         1
+Flags       576
+End
+
+#COMMAND
+Name        cmdtable~
+Code        do_cmdtable
+Level       67
+Flags       8
+End
+
+#COMMAND
+Name        climate~
+Code        do_climate
+Level       65
+Flags       648
+End
+
+#COMMAND
+Name        classes~
+Code        do_ch_classes
+Level       65
+Flags       8
+End
+
+#COMMAND
+Name        clist~
+Code        do_clans
+End
+
+#COMMAND
+Name        ctell~
+Code        do_clantalk
+End
+
+#COMMAND
+Name        christen~
+Code        do_christen
+Level       75
+Flags       2
+End
+
+#COMMAND
+Name        colorize~
+Code        do_color
+End
+
+#COMMAND
+Name        cwhere~
+Code        do_cwhere
+End
+
+#COMMAND
+Name        chess~
+Code        do_smaug_chess
+End
+
+#COMMAND
+Name        d~
+Code        do_down
+Position    8
+End
+
+#COMMAND
+Name        down~
+Code        do_down
+Position    8
+End
+
+#COMMAND
+Name        deposit~
+Code        do_deposit
+Position    8
+End
+
+#COMMAND
+Name        drink~
+Code        do_drink
+Position    5
+End
+
+#COMMAND
+Name        drop~
+Code        do_drop
+Position    5
+End
+
+#COMMAND
+Name        deny~
+Code        do_deny
+Level       68
+Log         1
+Flags       2080
+End
+
+#COMMAND
+Name        description~
+Code        do_description
+End
+
+#COMMAND
+Name        demote~
+Code        do_balzhur
+Position    6
+Level       70
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        dig~
+Code        do_dig
+Position    8
+Level       3
+End
+
+#COMMAND
+Name        disconnect~
+Code        do_disconnect
+Level       68
+Log         1
+Flags       2048
+End
+
+#COMMAND
+Name        dmesg~
+Code        do_dmesg
+Level       68
+Log         1
+Flags       2056
+End
+
+#COMMAND
+Name        drag~
+Code        do_drag
+Position    8
+End
+
+#COMMAND
+Name        devote~
+Code        do_devote
+Log         1
+End
+
+#COMMAND
+Name        deities~
+Code        do_deities
+Level       1
+End
+
+#COMMAND
+Name        dismount~
+Code        do_dismount
+End
+
+#COMMAND
+Name        donate~
+Code        do_donate
+End
+
+#COMMAND
+Name        dlookup~
+Code        do_dlookup
+End
+
+#COMMAND
+Name        delay~
+Code        do_delay
+Level       70
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        drain~
+Code        do_drain
+Level       73
+Flags       32
+End
+
+#COMMAND
+Name        date~
+Code        do_time
+End
+
+#COMMAND
+Name        dispel~
+Code        do_dispel
+Level       65
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        delete~
+Code        do_delete
+Level       1
+Log         1
+End
+
+#COMMAND
+Name        east~
+Code        do_east
+Position    8
+End
+
+#COMMAND
+Name        eat~
+Code        do_eat
+Position    5
+End
+
+#COMMAND
+Name        emote~
+Code        do_emote
+Position    5
+End
+
+#COMMAND
+Name        exits~
+Code        do_exits
+Position    5
+End
+
+#COMMAND
+Name        examine~
+Code        do_examine
+Position    5
+End
+
+#COMMAND
+Name        equipment~
+Code        do_equipment
+End
+
+#COMMAND
+Name        empty~
+Code        do_empty
+Position    6
+End
+
+#COMMAND
+Name        enter~
+Code        do_enter
+Position    8
+End
+
+#COMMAND
+Name        echo~
+Code        do_recho
+Level       62
+Log         1
+Flags       1024
+End
+
+#COMMAND
+Name        exchange~
+Code        do_exchange
+Level       1
+End
+
+#COMMAND
+Name        fill~
+Code        do_fill
+Position    5
+End
+
+#COMMAND
+Name        follow~
+Code        do_follow
+Position    5
+End
+
+#COMMAND
+Name        fixchar~
+Code        do_fixchar
+Level       69
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        flee~
+Code        do_flee
+Position    7
+End
+
+#COMMAND
+Name        foldarea~
+Code        do_foldarea
+Level       70
+Log         3
+Flags       4
+End
+
+#COMMAND
+Name        for~
+Code        do_for
+Level       69
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        force~
+Code        do_force
+Level       62
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        forceclose~
+Code        do_forceclose
+Level       65
+Log         1
+Flags       2048
+End
+
+#COMMAND
+Name        formpass~
+Code        do_form_password
+Level       71
+Flags       2048
+End
+
+#COMMAND
+Name        freeze~
+Code        do_freeze
+Level       68
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        fquit~
+Code        do_fquit
+Level       65
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        fire~
+Code        do_fire
+Level       75
+Log         1
+Flags       2
+End
+
+#COMMAND
+Name        forget~
+Code        do_forget
+Position    5
+End
+
+#COMMAND
+Name        get~
+Code        do_get
+Position    5
+End
+
+#COMMAND
+Name        give~
+Code        do_give
+Position    5
+End
+
+#COMMAND
+Name        gtell~
+Code        do_gtell
+End
+
+#COMMAND
+Name        group~
+Code        do_group
+Position    4
+End
+
+#COMMAND
+Name        guildtalk~
+Code        do_guildtalk
+End
+
+#COMMAND
+Name        glance~
+Code        do_glance
+Position    5
+End
+
+#COMMAND
+Name        goto~
+Code        do_goto
+Level       61
+Flags       32
+End
+
+#COMMAND
+Name        guilds~
+Code        do_guilds
+End
+
+#COMMAND
+Name        gold~
+Code        do_gold
+Level       1
+End
+
+#COMMAND
+Name        gossip~
+Code        do_gossip
+Position    5
+End
+
+#COMMAND
+Name        gain~
+Code        do_gain
+End
+
+#COMMAND
+Name        ghost~
+Code        do_loadup
+Level       71
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        gfighting~
+Code        do_gfighting
+Level       75
+Flags       2
+End
+
+#COMMAND
+Name        guard~
+Code        do_guard
+Position    5
+End
+
+#COMMAND
+Name        gtalk~
+Code        do_gtell
+End
+
+#COMMAND
+Name        hit~
+Code        do_kill
+Position    7
+End
+
+#COMMAND
+Name        help~
+Code        do_help
+End
+
+#COMMAND
+Name        hold~
+Code        do_wear
+Position    5
+End
+
+#COMMAND
+Name        hedit~
+Code        do_hedit
+Level       69
+Log         1
+Flags       960
+End
+
+#COMMAND
+Name        hell~
+Code        do_hell
+Level       65
+Log         4
+Flags       32
+End
+
+#COMMAND
+Name        hlist~
+Code        do_hlist
+End
+
+#COMMAND
+Name        holylight~
+Code        do_holylight
+Level       61
+Flags       32
+End
+
+#COMMAND
+Name        homepage~
+Code        do_homepage
+Level       10
+End
+
+#COMMAND
+Name        hset~
+Code        do_hset
+Level       69
+Log         1
+Flags       960
+End
+
+#COMMAND
+Name        highfive~
+Code        do_highfive
+Position    5
+End
+
+#COMMAND
+Name        inventory~
+Code        do_inventory
+End
+
+#COMMAND
+Name        ide~
+Code        do_ide
+End
+
+#COMMAND
+Name        idea~
+Code        do_idea
+End
+
+#COMMAND
+Name        immortalize~
+Code        do_immortalize
+Level       71
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        induct~
+Code        do_induct
+Position    8
+Log         1
+Flags       192
+End
+
+#COMMAND
+Name        installarea~
+Code        do_installarea
+Level       75
+Log         1
+Flags       64
+End
+
+#COMMAND
+Name        instazone~
+Code        do_instazone
+Level       64
+Log         3
+Flags       192
+End
+
+#COMMAND
+Name        interface~
+Code        do_interface
+End
+
+#COMMAND
+Name        introduce~
+Code        do_introduce
+Position    5
+End
+
+#COMMAND
+Name        invis~
+Code        do_invis
+Level       61
+Flags       32
+End
+
+#COMMAND
+Name        instaroom~
+Code        do_instaroom
+Level       64
+Log         3
+Flags       192
+End
+
+#COMMAND
+Name        ipcompare~
+Code        do_ipcompare
+Level       70
+Log         1
+Flags       2048
+End
+
+#COMMAND
+Name        intervene~
+Code        do_intervene
+Level       67
+Flags       32
+End
+
+#COMMAND
+Name        irc~
+Code        skill_notfound
+Level       75
+Flags       2
+End
+
+#COMMAND
+Name        junk~
+Code        do_junk
+Level       1
+End
+
+#COMMAND
+Name        kill~
+Code        do_kill
+Position    7
+End
+
+#COMMAND
+Name        look~
+Code        do_look
+Position    5
+End
+
+#COMMAND
+Name        lock~
+Code        do_lock
+Position    5
+End
+
+#COMMAND
+Name        level~
+Code        do_level
+End
+
+#COMMAND
+Name        list~
+Code        do_list
+Position    5
+End
+
+#COMMAND
+Name        languages~
+Code        do_languages
+Position    5
+End
+
+#COMMAND
+Name        last~
+Code        do_last
+Level       65
+Log         1
+Flags       2056
+End
+
+#COMMAND
+Name        leave~
+Code        do_leave
+Position    8
+End
+
+#COMMAND
+Name        light~
+Code        do_light
+Position    6
+End
+
+#COMMAND
+Name        litterbug~
+Code        do_litterbug
+Level       62
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        load~
+Code        do_load
+Level       64
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        loadarea~
+Code        do_loadarea
+Level       63
+Log         1
+Flags       4
+End
+
+#COMMAND
+Name        log~
+Code        do_log
+Level       74
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        listcurrency~
+Code        do_listcurrency
+Level       62
+Flags       8
+End
+
+#COMMAND
+Name        mpecho~
+Code        do_mpecho
+End
+
+#COMMAND
+Name        mpechoat~
+Code        do_mpechoat
+End
+
+#COMMAND
+Name        mea~
+Code        do_mpechoat
+End
+
+#COMMAND
+Name        mpat~
+Code        do_mpat
+End
+
+#COMMAND
+Name        mpforce~
+Code        do_mpforce
+End
+
+#COMMAND
+Name        mpechoaround~
+Code        do_mpechoaround
+End
+
+#COMMAND
+Name        mer~
+Code        do_mpechoaround
+End
+
+#COMMAND
+Name        mpasound~
+Code        do_mpasound
+End
+
+#COMMAND
+Name        mpoload~
+Code        do_mpoload
+End
+
+#COMMAND
+Name        mpjunk~
+Code        do_mpjunk
+End
+
+#COMMAND
+Name        mpgoto~
+Code        do_mpgoto
+End
+
+#COMMAND
+Name        mpdamage~
+Code        do_mp_damage
+End
+
+#COMMAND
+Name        mpdeposit~
+Code        do_mp_deposit
+End
+
+#COMMAND
+Name        mprestore~
+Code        do_mp_restore
+End
+
+#COMMAND
+Name        mpkill~
+Code        do_mpkill
+End
+
+#COMMAND
+Name        mptransfer~
+Code        do_mptransfer
+End
+
+#COMMAND
+Name        mpmload~
+Code        do_mpmload
+End
+
+#COMMAND
+Name        mpnothing~
+Code        do_mpnothing
+End
+
+#COMMAND
+Name        mppurge~
+Code        do_mppurge
+End
+
+#COMMAND
+Name        mpinvis~
+Code        do_mpinvis
+End
+
+#COMMAND
+Name        mpadvance~
+Code        do_mpadvance
+Log         1
+End
+
+#COMMAND
+Name        mpapply~
+Code        do_mpapply
+End
+
+#COMMAND
+Name        mpapplyb~
+Code        do_mpapplyb
+End
+
+#COMMAND
+Name        mppkset~
+Code        do_mppkset
+End
+
+#COMMAND
+Name        mpclosepassage~
+Code        do_mp_close_passage
+End
+
+#COMMAND
+Name        mpopenpassage~
+Code        do_mp_open_passage
+End
+
+#COMMAND
+Name        mpdream~
+Code        do_mpdream
+End
+
+#COMMAND
+Name        mpslay~
+Code        do_mp_slay
+End
+
+#COMMAND
+Name        mppractice~
+Code        do_mp_practice
+End
+
+#COMMAND
+Name        mpwithdraw~
+Code        do_mp_withdraw
+End
+
+#COMMAND
+Name        mail~
+Code        do_mailroom
+Position    5
+End
+
+#COMMAND
+Name        make~
+Code        do_make
+Level       1
+Log         1
+End
+
+#COMMAND
+Name        makeboard~
+Code        do_makeboard
+Level       71
+Log         1
+Flags       192
+End
+
+#COMMAND
+Name        makeclan~
+Code        do_makeclan
+Level       71
+Log         1
+Flags       192
+End
+
+#COMMAND
+Name        makecouncil~
+Code        do_makecouncil
+Level       71
+Log         1
+Flags       192
+End
+
+#COMMAND
+Name        makerepair~
+Code        do_makerepair
+Level       64
+Log         3
+Flags       192
+End
+
+#COMMAND
+Name        makeshop~
+Code        do_makeshop
+Level       64
+Log         3
+Flags       132
+End
+
+#COMMAND
+Name        makewizlist~
+Code        do_makewizlist
+Level       71
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        map~
+Code        do_lookmap
+Level       75
+Flags       10
+End
+
+#COMMAND
+Name        mapout~
+Code        do_mapout
+Level       67
+Flags       72
+End
+
+#COMMAND
+Name        massign~
+Code        do_massign
+Level       71
+Log         1
+Flags       68
+End
+
+#COMMAND
+Name        mcreate~
+Code        do_mcreate
+Level       65
+Log         3
+Flags       132
+End
+
+#COMMAND
+Name        mdelete~
+Code        do_mdelete
+Level       65
+Log         1
+Flags       260
+End
+
+#COMMAND
+Name        memory~
+Code        do_memory
+Level       72
+Log         1
+Flags       72
+End
+
+#COMMAND
+Name        mfind~
+Code        do_mfind
+Level       64
+Flags       12
+End
+
+#COMMAND
+Name        mlist~
+Code        do_mlist
+Level       63
+Flags       12
+End
+
+#COMMAND
+Name        mpedit~
+Code        do_mpedit
+Level       64
+Log         3
+Flags       644
+End
+
+#COMMAND
+Name        mpstat~
+Code        do_mpstat
+Level       64
+Flags       12
+End
+
+#COMMAND
+Name        mrange~
+Code        do_mrange
+Level       64
+Flags       2
+End
+
+#COMMAND
+Name        mset~
+Code        do_mset
+Level       64
+Log         3
+Flags       644
+End
+
+#COMMAND
+Name        mstat~
+Code        do_mstat
+Level       64
+Flags       12
+End
+
+#COMMAND
+Name        music~
+Code        do_music
+Position    4
+End
+
+#COMMAND
+Name        muse~
+Code        do_muse
+Level       74
+Flags       1024
+End
+
+#COMMAND
+Name        mwhere~
+Code        do_mwhere
+Level       63
+Flags       12
+End
+
+#COMMAND
+Name        makedeity~
+Code        do_makedeity
+Level       71
+Log         1
+Flags       192
+End
+
+#COMMAND
+Name        mpfavor~
+Code        do_mpfavor
+Level       1
+End
+
+#COMMAND
+Name        mslist~
+Code        do_mslist
+Level       65
+Flags       12
+End
+
+#COMMAND
+Name        makeproperty~
+Code        do_makeproperty
+Level       66
+Flags       132
+End
+
+#COMMAND
+Name        msfind~
+Code        do_msfind
+Level       65
+Flags       12
+End
+
+#COMMAND
+Name        makemapfile~
+Code        do_makemapfile
+Level       75
+Flags       32
+End
+
+#COMMAND
+Name        mapper~
+Code        do_mapper
+Level       62
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        mpdrop~
+Code        do_mpdrop
+Log         1
+End
+
+#COMMAND
+Name        mpechoall~
+Code        do_mpechoall
+End
+
+#COMMAND
+Name        memorize~
+Code        do_memorize
+Position    5
+Log         1
+End
+
+#COMMAND
+Name        money~
+Code        do_gold
+End
+
+#COMMAND
+Name        mind~
+Code        do_mind
+End
+
+#COMMAND
+Name        mppeace~
+Code        do_mppeace
+End
+
+#COMMAND
+Name        mpdispel~
+Code        do_mpdispel
+End
+
+#COMMAND
+Name        mpexp~
+Code        do_mpexp
+End
+
+#COMMAND
+Name        mpsetvar~
+Code        do_mpsetvar
+End
+
+#COMMAND
+Name        mpdelvar~
+Code        do_mpdelvar
+End
+
+#COMMAND
+Name        mpmodvar~
+Code        do_mpmodvar
+End
+
+#COMMAND
+Name        mpmset~
+Code        do_mpmset
+End
+
+#COMMAND
+Name        mposet~
+Code        do_mposet
+End
+
+#COMMAND
+Name        mphate~
+Code        do_mphate
+End
+
+#COMMAND
+Name        mpfear~
+Code        do_mpfear
+End
+
+#COMMAND
+Name        mphunt~
+Code        do_mphunt
+End
+
+#COMMAND
+Name        mpmtransform~
+Code        do_mpmtransform
+End
+
+#COMMAND
+Name        mpotransform~
+Code        do_mpotransform
+End
+
+#COMMAND
+Name        multiclasses~
+Code        do_multiclasses
+Level       75
+Flags       2
+End
+
+#COMMAND
+Name        north~
+Code        do_north
+Position    8
+End
+
+#COMMAND
+Name        name~
+Code        do_name
+End
+
+#COMMAND
+Name        ne~
+Code        do_northeast
+Position    8
+End
+
+#COMMAND
+Name        nw~
+Code        do_northwest
+Position    8
+End
+
+#COMMAND
+Name        note~
+Code        do_noteroom
+Position    5
+End
+
+#COMMAND
+Name        newbiechat~
+Code        do_newbiechat
+End
+
+#COMMAND
+Name        newbieset~
+Code        do_newbieset
+Level       75
+Flags       192
+End
+
+#COMMAND
+Name        newzones~
+Code        do_newzones
+Level       63
+Flags       12
+End
+
+#COMMAND
+Name        noemote~
+Code        do_noemote
+Level       63
+Flags       32
+End
+
+#COMMAND
+Name        noresolve~
+Code        do_noresolve
+Level       71
+Log         1
+Flags       2048
+End
+
+#COMMAND
+Name        northeast~
+Code        do_northeast
+Position    8
+End
+
+#COMMAND
+Name        northwest~
+Code        do_northwest
+Position    8
+End
+
+#COMMAND
+Name        notell~
+Code        do_notell
+Level       63
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        notitle~
+Code        do_notitle
+Level       63
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        nuk~
+Code        do_destro
+Position    8
+Level       73
+Flags       2304
+End
+
+#COMMAND
+Name        nuke~
+Code        do_destroy
+Position    8
+Level       73
+Log         1
+Flags       2304
+End
+
+#COMMAND
+Name        new_class~
+Code        do_new_ch_class
+Level       10
+End
+
+#COMMAND
+Name        notch~
+Code        do_wear
+Position    8
+End
+
+#COMMAND
+Name        noooc~
+Code        do_noooc
+Level       63
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        netstat~
+Code        do_netstat
+Level       75
+End
+
+#COMMAND
+Name        order~
+Code        do_order
+Position    5
+End
+
+#COMMAND
+Name        open~
+Code        do_open
+Position    5
+End
+
+#COMMAND
+Name        oassign~
+Code        do_oassign
+Level       71
+Log         1
+Flags       68
+End
+
+#COMMAND
+Name        ocreate~
+Code        do_ocreate
+Level       64
+Log         3
+Flags       132
+End
+
+#COMMAND
+Name        odelete~
+Code        do_odelete
+Level       65
+Log         1
+Flags       260
+End
+
+#COMMAND
+Name        ofind~
+Code        do_ofind
+Level       64
+Flags       12
+End
+
+#COMMAND
+Name        olist~
+Code        do_olist
+Level       63
+Flags       12
+End
+
+#COMMAND
+Name        opedit~
+Code        do_opedit
+Level       64
+Log         3
+Flags       640
+End
+
+#COMMAND
+Name        opstat~
+Code        do_opstat
+Level       64
+Flags       12
+End
+
+#COMMAND
+Name        orange~
+Code        do_orange
+Level       64
+Flags       2
+End
+
+#COMMAND
+Name        orders~
+Code        do_orders
+End
+
+#COMMAND
+Name        ordertalk~
+Code        do_ordertalk
+End
+
+#COMMAND
+Name        ostat~
+Code        do_ostat
+Level       64
+Flags       12
+End
+
+#COMMAND
+Name        ot~
+Code        do_ordertalk
+End
+
+#COMMAND
+Name        outcast~
+Code        do_outcast
+Position    8
+Log         1
+Flags       320
+End
+
+#COMMAND
+Name        owhere~
+Code        do_owhere
+Level       63
+Flags       12
+End
+
+#COMMAND
+Name        oset~
+Code        do_oset
+Level       64
+Log         3
+Flags       644
+End
+
+#COMMAND
+Name        ooc~
+Code        do_ooc
+Position    4
+Flags       1024
+End
+
+#COMMAND
+Name        oslist~
+Code        do_oslist
+Level       65
+Flags       12
+End
+
+#COMMAND
+Name        offer~
+Code        do_offer
+Position    5
+End
+
+#COMMAND
+Name        osfind~
+Code        do_osfind
+Level       65
+Flags       12
+End
+
+#COMMAND
+Name        oldbug~
+Code        do_bug
+Level       75
+Flags       2
+End
+
+#COMMAND
+Name        put~
+Code        do_put
+Position    5
+End
+
+#COMMAND
+Name        password~
+Code        do_password
+Log         2
+End
+
+#COMMAND
+Name        practice~
+Code        do_practice
+Position    4
+End
+
+#COMMAND
+Name        pardon~
+Code        do_pardon
+Level       63
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        peace~
+Code        do_peace
+Level       61
+Flags       32
+End
+
+#COMMAND
+Name        pull~
+Code        do_pull
+Position    5
+End
+
+#COMMAND
+Name        purge~
+Code        do_purge
+Level       67
+Flags       32
+End
+
+#COMMAND
+Name        purge~
+Code        do_low_purge
+Level       64
+Flags       32
+End
+
+#COMMAND
+Name        push~
+Code        do_push
+Position    5
+End
+
+#COMMAND
+Name        prompt~
+Code        do_prompt
+Level       1
+End
+
+#COMMAND
+Name        pager~
+Code        do_pager
+Level       1
+End
+
+#COMMAND
+Name        psitrain~
+Code        do_psitrain
+Level       1
+Log         1
+End
+
+#COMMAND
+Name        property~
+Code        do_property
+End
+
+#COMMAND
+Name        propset~
+Code        do_propset
+Level       66
+Flags       576
+End
+
+#COMMAND
+Name        propstat~
+Code        do_propstat
+Level       65
+Flags       72
+End
+
+#COMMAND
+Name        pstat~
+Code        do_pstat
+Level       65
+Flags       8
+End
+
+#COMMAND
+Name        pose~
+Code        do_pose
+Level       5
+Log         1
+End
+
+#COMMAND
+Name        pray~
+Code        do_pray
+End
+
+#COMMAND
+Name        planes~
+Code        do_planes
+Level       75
+Flags       2
+End
+
+#COMMAND
+Name        quaff~
+Code        do_quaff
+Position    5
+End
+
+#COMMAND
+Name        qui~
+Code        do_qui
+End
+
+#COMMAND
+Name        quit~
+Code        do_quit
+End
+
+#COMMAND
+Name        quest~
+Code        do_quest
+Log         1
+End
+
+#COMMAND
+Name        qpset~
+Code        do_qpset
+Level       62
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        questtalk~
+Code        do_questtalk
+Position    5
+End
+
+#COMMAND
+Name        quests~
+Code        do_quests
+End
+
+#COMMAND
+Name        rest~
+Code        do_rest
+Position    4
+End
+
+#COMMAND
+Name        report~
+Code        do_report
+End
+
+#COMMAND
+Name        repair~
+Code        do_repair
+Position    5
+End
+
+#COMMAND
+Name        reply~
+Code        do_reply
+Position    5
+End
+
+#COMMAND
+Name        remove~
+Code        do_remove
+Position    6
+End
+
+#COMMAND
+Name        rank~
+Code        do_rank
+Level       61
+Flags       32
+End
+
+#COMMAND
+Name        rassign~
+Code        do_rassign
+Level       71
+Log         1
+Flags       68
+End
+
+#COMMAND
+Name        rat~
+Code        do_rat
+Level       65
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        rdelete~
+Code        do_rdelete
+Level       65
+Log         1
+Flags       260
+End
+
+#COMMAND
+Name        reboo~
+Code        do_reboo
+Level       70
+Flags       2048
+End
+
+#COMMAND
+Name        reboot~
+Code        do_reboot
+Level       70
+Log         1
+Flags       2048
+End
+
+#COMMAND
+Name        recite~
+Code        do_recite
+Position    5
+End
+
+#COMMAND
+Name        regoto~
+Code        do_regoto
+Level       61
+Flags       32
+End
+
+#COMMAND
+Name        rent~
+Code        do_rent
+End
+
+#COMMAND
+Name        repairset~
+Code        do_repairset
+Level       64
+Log         3
+Flags       704
+End
+
+#COMMAND
+Name        repairshops~
+Code        do_repairshops
+Level       64
+Flags       72
+End
+
+#COMMAND
+Name        repairstat~
+Code        do_repairstat
+Level       64
+Flags       72
+End
+
+#COMMAND
+Name        reset~
+Code        do_reset
+Level       63
+Log         3
+Flags       132
+End
+
+#COMMAND
+Name        restore~
+Code        do_restore
+Level       65
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        restoretime~
+Code        do_restoretime
+Level       64
+Flags       40
+End
+
+#COMMAND
+Name        restrict~
+Code        do_restrict
+Level       67
+Flags       32
+End
+
+#COMMAND
+Name        return~
+Code        do_return
+Position    5
+End
+
+#COMMAND
+Name        retran~
+Code        do_retran
+Level       63
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        retire~
+Code        do_retire
+Level       71
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        revert~
+Code        do_revert
+End
+
+#COMMAND
+Name        rip~
+Code        do_rip
+End
+
+#COMMAND
+Name        rlist~
+Code        do_rlist
+Level       63
+Flags       12
+End
+
+#COMMAND
+Name        rpedit~
+Code        do_rpedit
+Level       64
+Log         3
+Flags       644
+End
+
+#COMMAND
+Name        rpstat~
+Code        do_rpstat
+Level       64
+Flags       12
+End
+
+#COMMAND
+Name        rstat~
+Code        do_rstat
+Level       64
+Flags       12
+End
+
+#COMMAND
+Name        rreset~
+Code        do_rreset
+Level       63
+Log         3
+Flags       132
+End
+
+#COMMAND
+Name        read~
+Code        do_read
+End
+
+#COMMAND
+Name        rset~
+Code        do_rset
+Level       64
+Log         3
+Flags       644
+End
+
+#COMMAND
+Name        rslist~
+Code        do_rslist
+Level       65
+Flags       12
+End
+
+#COMMAND
+Name        resolve~
+Code        do_resolve
+Level       70
+Flags       2056
+End
+
+#COMMAND
+Name        run~
+Code        do_run
+End
+
+#COMMAND
+Name        rfind~
+Code        do_rfind
+Level       64
+Flags       12
+End
+
+#COMMAND
+Name        rsfind~
+Code        do_rsfind
+Level       65
+Flags       12
+End
+
+#COMMAND
+Name        races~
+Code        do_races
+Flags       8
+End
+
+#COMMAND
+Name        reassign~
+Code        do_reassigncmd
+Level       74
+Flags       32
+End
+
+#COMMAND
+Name        rareobjs~
+Code        do_rareobjs
+Level       65
+Log         1
+Flags       8
+End
+
+#COMMAND
+Name        recognize~
+Code        do_recognize
+Position    5
+End
+
+#COMMAND
+Name        south~
+Code        do_south
+Position    8
+End
+
+#COMMAND
+Name        se~
+Code        do_southeast
+Position    8
+End
+
+#COMMAND
+Name        sw~
+Code        do_southwest
+Position    8
+End
+
+#COMMAND
+Name        say~
+Code        do_say
+Position    5
+End
+
+#COMMAND
+Name        save~
+Code        do_save
+End
+
+#COMMAND
+Name        sacrifice~
+Code        do_sacrifice
+Position    5
+End
+
+#COMMAND
+Name        score~
+Code        do_score
+End
+
+#COMMAND
+Name        sleep~
+Code        do_sleep
+Position    4
+End
+
+#COMMAND
+Name        stand~
+Code        do_stand
+Position    4
+End
+
+#COMMAND
+Name        savearea~
+Code        do_savearea
+Level       63
+Log         3
+Flags       4
+End
+
+#COMMAND
+Name        sell~
+Code        do_sell
+Position    5
+End
+
+#COMMAND
+Name        sedit~
+Code        do_sedit
+Level       66
+Log         1
+Flags       960
+End
+
+#COMMAND
+Name        setboot~
+Code        do_set_boot_time
+Level       70
+Log         1
+Flags       2048
+End
+
+#COMMAND
+Name        setclan~
+Code        do_setclan
+Level       68
+Log         1
+Flags       576
+End
+
+#COMMAND
+Name        setcouncil~
+Code        do_setcouncil
+Level       71
+Log         1
+Flags       576
+End
+
+#COMMAND
+Name        shout~
+Code        do_shout
+Position    5
+Level       5
+End
+
+#COMMAND
+Name        shops~
+Code        do_shops
+Level       64
+Log         3
+Flags       72
+End
+
+#COMMAND
+Name        shopset~
+Code        do_shopset
+Level       64
+Log         1
+Flags       576
+End
+
+#COMMAND
+Name        shopstat~
+Code        do_shopstat
+Level       64
+Flags       72
+End
+
+#COMMAND
+Name        shove~
+Code        do_shove
+Position    8
+End
+
+#COMMAND
+Name        show~
+Code        do_show
+Level       62
+Flags       8
+End
+
+#COMMAND
+Name        showclan~
+Code        do_showclan
+Level       62
+Flags       72
+End
+
+#COMMAND
+Name        showcouncil~
+Code        do_showcouncil
+Level       62
+Flags       72
+End
+
+#COMMAND
+Name        shutdow~
+Code        do_shutdow
+Level       70
+Flags       2048
+End
+
+#COMMAND
+Name        shutdown~
+Code        do_shutdown
+Level       70
+Log         1
+Flags       2048
+End
+
+#COMMAND
+Name        sit~
+Code        do_sit
+Position    4
+End
+
+#COMMAND
+Name        silence~
+Code        do_silence
+Level       63
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        sla~
+Code        do_sla
+Level       67
+Flags       320
+End
+
+#COMMAND
+Name        slay~
+Code        do_slay
+Level       67
+Log         1
+Flags       320
+End
+
+#COMMAND
+Name        slist~
+Code        do_slist
+Position    4
+End
+
+#COMMAND
+Name        slookup~
+Code        do_slookup
+Level       65
+Flags       8
+End
+
+#COMMAND
+Name        smoke~
+Code        do_smoke
+Position    5
+End
+
+#COMMAND
+Name        snoop~
+Code        do_snoop
+Level       70
+Log         4
+Flags       8
+End
+
+#COMMAND
+Name        sober~
+Code        do_sober
+Level       62
+Log         4
+Flags       32
+End
+
+#COMMAND
+Name        socials~
+Code        do_socials
+End
+
+#COMMAND
+Name        southeast~
+Code        do_southeast
+Position    8
+End
+
+#COMMAND
+Name        southwest~
+Code        do_southwest
+Position    8
+End
+
+#COMMAND
+Name        speak~
+Code        do_speak
+Position    5
+End
+
+#COMMAND
+Name        split~
+Code        do_split
+Position    5
+End
+
+#COMMAND
+Name        sset~
+Code        do_sset
+Level       72
+Log         1
+Flags       704
+End
+
+#COMMAND
+Name        switch~
+Code        do_switch
+Level       70
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        setdeity~
+Code        do_setdeity
+Level       71
+Log         1
+Flags       576
+End
+
+#COMMAND
+Name        showdeity~
+Code        do_showdeity
+Level       62
+Flags       72
+End
+
+#COMMAND
+Name        supplicate~
+Code        do_supplicate
+Level       61
+End
+
+#COMMAND
+Name        showclass~
+Code        do_showch_class
+Level       65
+Flags       72
+End
+
+#COMMAND
+Name        setclass~
+Code        do_setch_class
+Level       74
+Log         1
+Flags       576
+End
+
+#COMMAND
+Name        system~
+Code        do_echo
+Level       73
+Log         1
+Flags       1024
+End
+
+#COMMAND
+Name        setweather~
+Code        do_setweather
+Level       70
+Log         1
+Flags       576
+End
+
+#COMMAND
+Name        showweather~
+Code        do_showweather
+Level       68
+Flags       72
+End
+
+#COMMAND
+Name        setseverity~
+Code        do_setseverity
+Level       65
+Flags       32
+End
+
+#COMMAND
+Name        stats~
+Code        do_stats
+Level       61
+Flags       2056
+End
+
+#COMMAND
+Name        setcurrency~
+Code        do_setcurrency
+Level       68
+Log         1
+Flags       576
+End
+
+#COMMAND
+Name        sendcl~
+Code        do_sendcl
+Level       73
+Flags       1024
+End
+
+#COMMAND
+Name        skills~
+Code        do_slist
+End
+
+#COMMAND
+Name        switchback~
+Code        do_return
+End
+
+#COMMAND
+Name        strew~
+Code        do_strew
+Level       68
+Flags       32
+End
+
+#COMMAND
+Name        scatter~
+Code        do_scatter
+Level       68
+Flags       32
+End
+
+#COMMAND
+Name        strip~
+Code        do_strip
+Level       68
+Flags       32
+End
+
+#COMMAND
+Name        tell~
+Code        do_tell
+Position    5
+End
+
+#COMMAND
+Name        take~
+Code        do_get
+Position    5
+End
+
+#COMMAND
+Name        tamp~
+Code        do_tamp
+Position    5
+End
+
+#COMMAND
+Name        think~
+Code        do_think
+Level       61
+Flags       1024
+End
+
+#COMMAND
+Name        time~
+Code        do_time
+End
+
+#COMMAND
+Name        title~
+Code        do_title
+End
+
+#COMMAND
+Name        transfer~
+Code        do_transfer
+Level       63
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        trust~
+Code        do_trust
+Level       75
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        typo~
+Code        do_typo
+End
+
+#COMMAND
+Name        timecmd~
+Code        do_timecmd
+Level       70
+Flags       2056
+End
+
+#COMMAND
+Name        track~
+Code        do_track
+Level       1
+End
+
+#COMMAND
+Name        ticks~
+Code        do_ticks
+Level       70
+Flags       2056
+End
+
+#COMMAND
+Name        tag~
+Code        do_tag
+Level       75
+Flags       2
+End
+
+#COMMAND
+Name        up~
+Code        do_up
+Position    8
+End
+
+#COMMAND
+Name        unlock~
+Code        do_unlock
+Position    5
+End
+
+#COMMAND
+Name        unfoldarea~
+Code        do_unfoldarea
+Level       75
+Log         1
+Flags       4
+End
+
+#COMMAND
+Name        unhell~
+Code        do_unhell
+Level       65
+Log         4
+Flags       32
+End
+
+#COMMAND
+Name        use~
+Code        do_use
+Position    5
+End
+
+#COMMAND
+Name        users~
+Code        do_users
+Level       64
+Flags       2056
+End
+
+#COMMAND
+Name        unsilence~
+Code        do_unsilence
+Level       63
+Log         1
+Flags       32
+End
+
+#COMMAND
+Name        unalias~
+Code        do_alias
+End
+
+#COMMAND
+Name        value~
+Code        do_value
+Position    5
+End
+
+#COMMAND
+Name        visible~
+Code        do_visible
+Position    4
+End
+
+#COMMAND
+Name        vnums~
+Code        do_vnums
+Level       63
+Flags       12
+End
+
+#COMMAND
+Name        vsearch~
+Code        do_vsearch
+Level       68
+Flags       72
+End
+
+#COMMAND
+Name        variables~
+Code        do_variables
+Level       68
+Flags       32
+End
+
+#COMMAND
+Name        west~
+Code        do_west
+Position    8
+End
+
+#COMMAND
+Name        wake~
+Code        do_wake
+Position    4
+End
+
+#COMMAND
+Name        wartalk~
+Code        do_wartalk
+Position    5
+Level       2
+End
+
+#COMMAND
+Name        who~
+Code        do_who
+Position    4
+End
+
+#COMMAND
+Name        wear~
+Code        do_wear
+Position    6
+End
+
+#COMMAND
+Name        whois~
+Code        do_whois
+End
+
+#COMMAND
+Name        wield~
+Code        do_wear
+Position    5
+End
+
+#COMMAND
+Name        where~
+Code        do_where
+Position    5
+End
+
+#COMMAND
+Name        whozone~
+Code        do_whozone
+Position    5
+End
+
+#COMMAND
+Name        weather~
+Code        do_weather
+Position    5
+End
+
+#COMMAND
+Name        wimpy~
+Code        do_wimpy
+End
+
+#COMMAND
+Name        wizlist~
+Code        do_wizlist
+Position    4
+End
+
+#COMMAND
+Name        wizhelp~
+Code        do_wizhelp
+Level       61
+Flags       8
+End
+
+#COMMAND
+Name        wizlock~
+Code        do_wizlock
+Level       71
+Log         1
+Flags       2048
+End
+
+#COMMAND
+Name        world~
+Code        do_world
+End
+
+#COMMAND
+Name        write~
+Code        do_write
+End
+
+#COMMAND
+Name        whisper~
+Code        do_whisper
+End
+
+#COMMAND
+Name        withdraw~
+Code        do_withdrawl
+Position    8
+End
+
+#COMMAND
+Name        zap~
+Code        do_zap
+Position    5
+End
+
+#COMMAND
+Name        zones~
+Code        do_zones
+Level       64
+Flags       12
+End
+
+#END

@@ -1,0 +1,163 @@
+Installation for Rom
+--------------------
+
+1. In your Makefile, above the list of O_FILES,
+   include the following:
+
+#IMC2 - Comment out to disable IMC2 support
+IMC = 1
+
+   Then directly below the list of O_FILES, add the following:
+   [Note: BSD users - put a period in front of the word ifdef, and in front of the word endif]
+
+ifdef IMC
+   O_FILES := imc.o $(O_FILES)
+   C_FLAGS := $(C_FLAGS) -DIMC -DIMCROM
+endif
+
+2. Open merc.h and locate the following code:
+
+#define IMPLEMENTOR		MAX_LEVEL
+#define	CREATOR			(MAX_LEVEL - 1)
+#define SUPREME			(MAX_LEVEL - 2)
+#define DEITY			(MAX_LEVEL - 3)
+#define GOD			(MAX_LEVEL - 4)
+#define IMMORTAL		(MAX_LEVEL - 5)
+#define DEMI			(MAX_LEVEL - 6)
+#define ANGEL			(MAX_LEVEL - 7)
+#define AVATAR			(MAX_LEVEL - 8)
+#define HERO			LEVEL_HERO
+
+   Directly below that, add the following:
+
+#ifdef IMC
+   #include "imc.h"
+#endif
+
+3. Locate your pc_data struct, which should be in one of your main *.h files.
+
+   Add the following to the end of it:
+
+#ifdef IMC
+    IMC_CHARDATA *imcchardata;
+#endif
+
+4. Open interp.c and locate the following section:
+
+if ( !check_social( ch, command, argument )
+
+   Add the following condition to whatever series of ifchecks exist there:
+
+#ifdef IMC
+	&&   !imc_command_hook( ch, command, argument )
+#endif
+
+5. Open comm.c and locate the following in main() :
+
+#if defined(unix)
+    control = init_socket( port );
+    boot_db( );
+    sprintf( log_buf, "ROM is ready to rock on port %d.", port );
+    log_string( log_buf );
+
+   Add the following beneath that:
+
+#ifdef IMC
+    imc_startup( FALSE ); // FALSE arg, so the autoconnect setting can govern it.
+#endif
+
+   Then further down in main(), locate the following:
+
+   close( control );
+
+   Add the following beneath that:
+
+#ifdef IMC
+   imc_shutdown( FALSE );
+#endif
+
+   Then in game_loop_unix(), locate the following:
+
+	/*
+	 * Autonomous game motion.
+	 */
+	update_handler( );
+
+   Directly ABOVE that, add the following:
+
+#ifdef IMC
+	imc_loop();
+#endif
+
+6. Open save.c and locate fread_char:
+
+   In the case 'I': section, and right before the final break; add the follwing:
+
+#ifdef IMC
+           if( ( fMatch = imc_loadchar( ch, fp, word ) ) )
+                break;
+#endif
+
+   Then in fwrite_char, locate:
+
+    fprintf( fp, "End\n\n" );
+
+   Directly ABOVE that, add:
+
+#ifdef IMC
+    imc_savechar( ch, fp );
+#endif
+
+   Then in load_char_obj(), locate the following:
+
+    found = FALSE;
+    fclose( fpReserve );
+    
+    #if defined(unix)
+    /* decompress if .gz file exists */
+
+   Directly ABOVE that, add the following:
+
+#ifdef IMC
+    imc_initchar( ch );
+#endif
+
+7. Open recycle.c
+
+   Locate free_char:
+
+   After this block of code:
+
+    free_string(ch->name);
+    free_string(ch->short_descr);
+    free_string(ch->long_descr);
+    free_string(ch->description);
+    free_string(ch->prompt);
+    free_string(ch->prefix);
+    free_note  (ch->pnote);
+
+   Add:
+
+#ifdef IMC
+    imc_freechardata( ch );
+#endif
+
+8. For users of copyover/hotboot ONLY:
+
+   Locate do_copyover, and just before the buffers for the execl call are
+   allocated, add the following:
+
+#ifdef IMC
+   imc_shutdown( FALSE );
+#endif
+
+8b: Ember 0.99.4a ONLY:
+
+In imc.c, remove the #include segment for tables.h
+
+8c: Sunder 1.0 ONLY:
+
+In imc.c, remove the #include statement for tables.h from the #ifdef IMCROM section,
+this file is not in the Sundermud distro.
+
+Return to the main IMC.txt file and continue where you left off.

@@ -1,0 +1,42 @@
+DOTD2 Intermud-3
+----------------
+
+As of Version 2.3.3, DOTD codebase has full I3 support already installed.
+DO NOT add this code or you WILL break something. Leave now while you still can.
+
+DOTD code release V2.3.2 has partial support for I3 in place.
+All you'll need to do with that version is complete steps 1, 2, 9, 10 and 11 of the main
+install instructions before returning to this file for completion.
+
+Versions 2.3.1 and lower of DOTD code MUST complete the full install according to the
+Smaug derivitive instructions before returning here.
+
+In the comm.c install, the act_string section is not required.
+The code already has it in place.
+
+In i3cfg.h, in the #ifdef I3SMAUG section:
+
+Find:
+   #define I3ISINVIS(ch)	( (IS_IMMORTAL(ch) && xIS_SET( (ch)->act, PLR_WIZINVIS )) || I3INVIS(ch) == TRUE )
+Replace with:
+   #define I3ISINVIS(ch)	( (IS_IMMORTAL(ch) && (ch)->pcdata->wizinvis > 0) || I3INVIS(ch) == TRUE )
+
+Find:
+   #define I3NOTELL(ch) ( xIS_SET( (ch)->act, PLR_NO_TELL ) || IS_SET( (ch)->deaf, CHANNEL_TELLS ) )
+Replace with:
+   #define I3NOTELL(ch) ( IS_SET( (ch)->act, PLR_NO_TELL ) || IS_SET( (ch)->deaf, CHANNEL_TELLS ) )
+
+Find:
+   #define CH_CLASSNAME(ch)	(class_table[(ch)->class]->who_name)
+Replace with:
+   #define CH_CLASSNAME(ch)	(GetClassString(ch))
+
+Find:
+   #define CH_AFK(ch)		(xIS_SET((ch)->act, PLR_AFK))
+Replace with:
+   #define CH_AFK(ch)		(IS_SET((ch)->act, PLR_AFK))
+
+Find:
+   #define CH_LEVEL(ch)	((ch)->level)
+Replace with:
+   #define CH_LEVEL(ch)	GetMaxLevel((ch))

@@ -1,0 +1,31 @@
+#I3CHAN
+ChanName   diku_chat~
+ChanMud    Alsherok~
+ChanLocal  dchat~
+ChanLayM   &R[&W%s&R] &C%s@%s: &c%s~
+ChanLayE   &R[&W%s&R] &c%s~
+ChanLevel  10
+ChanStatus 0
+End
+
+#I3CHAN
+ChanName   diku_immortals~
+ChanMud    Alsherok~
+ChanLocal  dimm~
+ChanLayM   &R[&W%s&R] &C%s@%s: &c%s~
+ChanLayE   &R[&W%s&R] &c%s~
+ChanLevel  101
+ChanStatus 0
+End
+
+#I3CHAN
+ChanName   diku_code~
+ChanMud    Alsherok~
+ChanLocal  dcode~
+ChanLayM   &R[&W%s&R] &C%s@%s: &c%s~
+ChanLayE   &R[&W%s&R] &c%s~
+ChanLevel  101
+ChanStatus 0
+End
+
+#END

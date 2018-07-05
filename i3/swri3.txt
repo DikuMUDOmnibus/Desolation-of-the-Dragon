@@ -1,0 +1,53 @@
+Star Wars Reality 1.0 + Star Wars Reality 2.0 Intermud-3
+--------------------------------------------------------
+
+In the install, when opening mud.h to place the #include, find the following:
+
+#define PULSE_PER_SECOND	    4
+#define PULSE_MINUTE              ( 60 * PULSE_PER_SECOND)
+#define PULSE_VIOLENCE		  (  3 * PULSE_PER_SECOND)
+#define PULSE_MOBILE		  (  4 * PULSE_PER_SECOND)
+#define PULSE_TICK		  ( 70 * PULSE_PER_SECOND)
+#define PULSE_AREA		  ( 60 * PULSE_PER_SECOND)
+#define PULSE_AUCTION             ( 10 * PULSE_PER_SECOND)
+#define PULSE_SPACE               ( 10 * PULSE_PER_SECOND)
+#define PULSE_TAXES               ( 60 * PULSE_MINUTE)
+
+Directly below that, add:
+
+#ifdef I3
+   #include "i3.h"
+#endif
+
+In i3cfg.h, in the #ifdef I3SMAUG section:
+
+Remove the x from all of the xIS_SET calls,
+SWR 1.0 and 2.0 don't support extended BVs.
+
+Find:
+   #define CH_LEVEL(ch)		((ch)->level)
+Replace with:
+   #define CH_LEVEL(ch)		((ch)->top_level)
+
+Find:
+   #define CH_CLASSNAME(ch)	(class_table[(ch)->class]->who_name)
+Replace with:
+   #define CH_CLASSNAME(ch)	( "" )
+
+Find:
+   #define CH_PK(ch)		IS_PKILL(ch)
+Replace with:
+   #define CH_PK(ch)		( 0 == 1 )
+
+For SWR 2.0 Only:
+In i3cfg.h, in the #ifdef I3SMAUG section, 
+
+Find:
+   #define I3ADMINLEVEL LEVEL_ETERNAL
+Replace with:
+   #define I3ADMINLEVEL MAX_LEVEL
+
+In i3.c, in function i3act_string, locate:
+	  sprintf( log_buf, "i3act_string: NPC vnum: %d", ch->pIndexData->vnum );
+Change to:
+	  sprintf( log_buf, "i3act_string: NPC vnum: %ld", ch->pIndexData->vnum );

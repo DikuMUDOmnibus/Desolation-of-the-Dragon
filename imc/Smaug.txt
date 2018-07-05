@@ -1,0 +1,198 @@
+Installation for Smaug
+----------------------
+
+1. In your Makefile, someplace above the main list of C_FLAGS,
+   include the following:
+
+#IMC2 - Comment out to disable IMC2 support
+IMC = 1
+
+   Then directly below the list of H_FILES, add the following:
+   [Note: BSD users - put a period in front of the word ifdef, and in front of the word endif]
+
+ifdef IMC
+   C_FILES := imc.c $(C_FILES)
+   O_FILES := imc.o $(O_FILES)
+   C_FLAGS := $(C_FLAGS) -DIMC -DIMCSMAUG
+endif
+
+2. Open mud.h
+
+   Locate the following:
+
+/*
+ * Structure for extended bitvectors -- Thoric
+ */
+struct extended_bitvector
+{
+    unsigned int		bits[XBI];
+};
+
+   Directly below that, add the following:
+
+#ifdef IMC
+   #include "imc.h"
+#endif
+
+   Locate your pc_data struct, which should be in one of your main *.h files.
+
+   Add the following to the end of it:
+
+#ifdef IMC
+    IMC_CHARDATA *imcchardata;
+#endif
+
+4. Open interp.c and locate the following section:
+
+if ( !check_social( ch, command, argument )
+
+   Add the following condition to whatever series of ifchecks exist there:
+
+#ifdef IMC
+	&&   !imc_command_hook( ch, command, argument )
+#endif
+
+5. Open comm.c and locate the following in main() :
+
+    /* I don't know how well this will work on an unnamed machine as I don't
+       have one handy, and the man pages are ever-so-helpful.. -- Alty */
+    if (gethostname(hostn, sizeof(hostn)) < 0)
+    {
+      perror("main: gethostname");
+      strcpy(hostn, "unresolved");
+    }
+    sprintf( log_buf, "%s ready at address %s on port %d.",	sysdata.mud_name, hostn, port );
+    log_string( log_buf );
+
+   Add the following beneath that:
+
+#ifdef IMC
+    imc_startup( FALSE ); // FALSE arg, so the autoconnect setting can govern it.
+#endif
+
+   Then further down in main(), locate the following:
+
+    closesocket( control  );
+    closesocket( control2 );
+    closesocket( conclient);
+    closesocket( conjava  );
+
+   Add the following beneath that:
+
+#ifdef IMC
+   imc_shutdown( FALSE );
+#endif
+
+   Then in game_loop(), locate the following:
+
+	/*
+	 * Autonomous game motion.
+	 */
+	update_handler( );
+
+   Directly ABOVE that, add the following:
+
+#ifdef IMC
+	imc_loop();
+#endif
+
+6. Open save.c and locate fread_char:
+
+   In the case 'I': section, and right before the final break; add the follwing:
+
+#ifdef IMC
+           if( ( fMatch = imc_loadchar( ch, fp, word ) ) )
+                break;
+#endif
+
+   Then in fwrite_char, locate:
+
+    fprintf( fp, "End\n\n" );
+
+   Directly ABOVE that, add:
+
+#ifdef IMC
+    imc_savechar( ch, fp );
+#endif
+
+   Then in load_char_obj(), locate the following:
+
+    found = FALSE;
+    sprintf( strsave, "%s%c/%s", PLAYER_DIR, tolower(name[0]), capitalize( name ) );
+
+   Directly ABOVE that, add the following:
+
+#ifdef IMC
+    imc_initchar( ch );
+#endif
+
+7. Open db.c
+
+   Locate free_char:
+
+   Below this block of code:
+
+	if ( ch->pcdata->subprompt )
+	   STRFREE( ch->pcdata->subprompt );
+	if(ch->pcdata->tell_history)
+	{
+		int i;
+		for(i = 0; i< 26; i++)
+		{
+			if(ch->pcdata->tell_history[i])
+				STRFREE(ch->pcdata->tell_history[i]);
+		}
+		DISPOSE(ch->pcdata->tell_history);
+	}
+   Add:
+
+#ifdef IMC
+	imc_freechardata( ch );
+#endif
+
+8. For users of copyover/hotboot ONLY:
+
+   Locate do_copyover, and just before the buffers for the execl call are
+   allocated, add the following:
+
+#ifdef IMC
+   imc_shutdown( FALSE );
+#endif
+
+8b: For users of SWR derivatives:
+
+In your imccfg.h file, replace the CH_LEVEL line with the following:
+
+#define CH_IMCLEVEL(ch)          ((ch)->top_level)
+
+8c: For users of CalareyMUD 2.0 and 3.0:
+
+In your imccgh.h file, REMOVE the CH_IMCLEVEL macro.
+In imc.c, find the imc_adjust_perms function.
+Replace it with this one:
+
+void imc_adjust_perms( CHAR_DATA *ch )
+{
+   /* Ugly hack to let the permission system adapt freely, but retains the ability to override that adaptation
+    * in the event you need to restrict someone to a lower level, or grant someone a higher level. This of
+    * course comes at the cost of forgetting you may have done so and caused the override flag to be set, but hey.
+    * This isn't a perfect system and never will be. Samson 2-8-04.
+    */
+   if( !IMCIS_SET( IMCFLAG(ch), IMC_PERMOVERRIDE ) )
+   {
+      /* This will default to MORT only - you will need to override this with "none" to
+       * keep people you don't want using it off.
+       */
+      if( ch->pcdata->permissions == 0 )
+	   IMCPERM(ch) = IMCPERM_MORT;
+      else if( IS_SET( ch->pcdata->permissions, PERMIT_BUILD ) )
+	   IMCPERM(ch) = IMCPERM_IMM;
+      else if( IS_SET( ch->pcdata->permissions, PERMIT_ADMIN ) )
+	   IMCPERM(ch) = IMCPERM_ADMIN;
+      else if( IS_SET( ch->pcdata->permissions, PERMIT_SECURITY ) )
+	   IMCPERM(ch) = IMCPERM_IMP;
+   }
+   return;
+}
+
+Return to the main IMC.txt file and continue where you left off.

@@ -1,0 +1,29 @@
+[1z<!ELEMENT RName '<FONT COLOR=Red>' FLAG="RoomName">
+[1z<!ELEMENT RDesc '<FONT COLOR=Green>' FLAG="RoomDesc">
+[1z<!ELEMENT RExits '<FONT COLOR=Blue>' FLAG="RoomExit">
+[1z<!ELEMENT Ex '<SEND>'>
+[1z<!ELEMENT Prompt FLAG="Prompt">
+[1z<!ELEMENT Hp FLAG="Set hp">
+[1z<!ELEMENT MaxHp FLAG="Set maxhp">
+[1z<!ELEMENT Mana FLAG="Set mana">
+[1z<!ELEMENT MaxMana FLAG="Set maxmana">
+[1z<!ELEMENT auction FLAG="Chan auction">
+[1z<!ELEMENT clantalk FLAG="Chan clantalk">
+[1z<!ELEMENT newbiechat FLAG="Chan newbiechat">
+[1z<!ELEMENT ordertalk FLAG="Chan ordertalk">
+[1z<!ELEMENT counciltalk FLAG="Chan counciltalk">
+[1z<!ELEMENT guildtalk FLAG="Chan guildtalk">
+[1z<!ELEMENT music FLAG="Chan music">
+[1z<!ELEMENT quest FLAG="Chan quest">
+[1z<!ELEMENT ask FLAG="Chan ask">
+[1z<!ELEMENT answer FLAG="Chan answer">
+[1z<!ELEMENT OOC FLAG="Chan OOC">
+[1z<!ELEMENT shout FLAG="Chan shout">
+[1z<!ELEMENT gossip FLAG="Chan gossip">
+[1z<!ELEMENT muse FLAG="Chan muse">
+[1z<!ELEMENT think FLAG="Chan think">
+[1z<!ELEMENT avtalk FLAG="Chan avtalk">
+[1z<!ELEMENT war FLAG="Chan war">
+[1z<!ELEMENT say FLAG="Chan say">
+[1z<!ELEMENT tell FLAG="Chan tell">
+[1z<!ELEMENT whisper FLAG="Chan whisper">

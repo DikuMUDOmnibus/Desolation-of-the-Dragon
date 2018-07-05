@@ -1,0 +1,31 @@
+Greed 0.99.7 Intermud-3
+-----------------------
+
+[*ponder* Is Greed some kind of Frankenstein of a bunch of different codebases?]
+
+In the merc.h install, use the Smaug instructions.
+
+In the comm.c install:
+Follow the Smaug directions specified for the check_playing function.
+
+In the save.c install, follow the instructions for save.c in envyi3.txt
+
+In i3cfg.h, in the #ifdef I3UENVY section:
+
+Find:
+   #define CH_CLASSNAME(ch)     (class_table[(ch)->class]->name)
+   #define CH_RANK(ch)		  (title_table[(ch)->class][(ch)->level][(ch)->sex == SEX_FEMALE ? 1 : 0])
+Change to:
+   #define CH_CLASSNAME(ch)     (class_long(ch))                
+   #define CH_RANK(ch)          ((ch)->cclass[0]->title[(ch)->level][(ch)->sex == SEX_FEMALE ? 1 : 0])
+
+Find:
+   #define I3NOTELL(ch)         (IS_SET((ch)->act, PLR_NO_TELL)) 
+   #define CH_PK(ch)            (IS_SET((ch)->act, PLR_REGISTER))
+   #define CH_AFK(ch)           (IS_SET((ch)->act, PLR_AFK))
+   #define WIZINVIS(ch)         (IS_IMMORTAL((ch)) && IS_SET((ch)->act, PLR_WIZINVIS))
+Change to:
+   #define I3NOTELL(ch)         (xIS_SET((ch)->act, PLR_NO_TELL))
+   #define CH_PK(ch)            (xIS_SET((ch)->act, PLR_REGISTER))
+   #define CH_AFK(ch)           (xIS_SET((ch)->act, PLR_AFK))
+   #define WIZINVIS(ch)		  (IS_IMMORTAL((ch)) && xIS_SET((ch)->act, PLR_WIZINVIS))

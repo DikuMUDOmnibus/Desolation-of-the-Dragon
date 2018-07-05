@@ -1,0 +1,215 @@
+#QUEST
+Name          Test Quest~
+Description   A test quest~
+Creator       Garil~
+Owner         Anybody~
+Task
+Description   Find the South Silverstone Crossroads~
+Type          2
+Vnum1         3210
+EndTask
+Task
+Description   Find a biscuit~
+Type          1
+Vnum1         3214
+EndTask
+Task
+Description   Find Farmer Joe~
+Type          0
+Vnum1         3232
+EndTask
+Task
+Description   objgive~
+Type          4
+EndTask
+Task
+Description   objplace~
+Type          5
+EndTask
+Task
+Description   mobkill~
+Type          3
+Vnum1         3222
+EndTask
+End
+
+#QUEST
+Name          Duck Hunt~
+Description   Nabu's Duck Hunt in the Forest.~
+Creator       Nabu~
+Owner         Anybody~
+CompletedBy   Karak~
+Completed     1080787118
+Flags         2
+Task
+Description   Find Rhonda, the Silverstone City Guide.~
+CompletedBy   Papito~
+Completed     1072342267
+Type          2
+Vnum1         3223
+Glory         1
+EndTask
+Task
+Description   Find the second fountain of Silverstone at Commerce Square.~
+CompletedBy   Papito~
+Completed     1072342502
+Type          2
+Vnum1         3208
+Glory         1
+EndTask
+Task
+Description   Find the West Gate of Silverstone~
+CompletedBy   Papito~
+Completed     1072350854
+Type          2
+Vnum1         3212
+Glory         1
+EndTask
+Task
+Description   Find a large sign mounted on a pole at the edge of the forest.~
+CompletedBy   Dyon~
+Completed     1072387666
+Type          2
+Vnum1         6000
+Glory         1
+EndTask
+Task
+Description   Find the Tall Oak tree with Timnus, the Protector.~
+CompletedBy   Karak~
+Completed     1080786834
+Type          2
+Vnum1         22602
+Glory         1
+EndTask
+Task
+Description   Find the Leafy path.~
+CompletedBy   Karak~
+Completed     1080786853
+Type          2
+Vnum1         22603
+Glory         1
+EndTask
+Task
+Description   Find a canoe at the edge of a pond.~
+CompletedBy   Karak~
+Completed     1080787087
+Type          2
+Vnum1         22649
+Glory         2
+EndTask
+Task
+Description   Find a duck, swimming around in circles at the pond.~
+CompletedBy   Karak~
+Completed     1080787118
+Type          0
+Vnum1         22625
+Glory         5
+EndTask
+End
+
+#QUEST
+Name          Walk from Mordilnia to New Thalos~
+Description   Walk from Mordilnia to New Thalos, learning some mud geography on the way.~
+Creator       Garil~
+Owner         Anybody~
+Flags         7
+Task
+Description   Start from the Mordilnia Town Square.~
+CompletedBy   Vicore~
+Completed     1073609473
+Type          2
+Vnum1         18212
+EndTask
+Task
+Description   Start out heading east, and follow the trade route to the Forest's Edge.~
+CompletedBy   Kael~
+Completed     1074049828
+Type          2
+Vnum1         3213
+EndTask
+Task
+Description   Head west through Haon-Dor, until you find the Colossal Tree.~
+CompletedBy   Kael~
+Completed     1074050288
+Type          2
+Vnum1         6103
+EndTask
+Task
+Description   From the Tree, head South until you find the Dark River.~
+CompletedBy   Alena~
+Completed     1074484533
+Type          2
+Vnum1         13673
+EndTask
+Task
+Description   On the river, head east, paying close attention till you find The Dock.~
+CompletedBy   Alena~
+Completed     1074484574
+Type          2
+Vnum1         3201
+EndTask
+Task
+Description   Your next stop is further east along the Dark River, Mirkwood.~
+CompletedBy   Alena~
+Completed     1074484640
+Type          2
+Vnum1         15100
+EndTask
+Task
+Description   Head north through Mirkwood, until you come to a The Crossroads.~
+CompletedBy   Alena~
+Completed     1074484641
+Type          2
+Vnum1         3502
+EndTask
+Task
+Description   Head east at The Crossroads, into the Eastern Mountains.~
+CompletedBy   Alena~
+Completed     1074484673
+Type          2
+Vnum1         16005
+EndTask
+Task
+Description   Head north, and go High up in the mountains.~
+CompletedBy   Alena~
+Completed     1074484688
+Type          2
+Vnum1         16015
+EndTask
+Task
+Description   Go east, past the rubble pile, until you get to a mine shaft.~
+CompletedBy   Turgon~
+Completed     1076162261
+Type          2
+Vnum1         16022
+EndTask
+Task
+Description   Head south, and stop by the Gypsy Village.~
+CompletedBy   Gabrael~
+Completed     1080538594
+Type          2
+Vnum1         16100
+EndTask
+Task
+Description   Head south from the Village, following the path to the Ishtar River.~
+Type          2
+Vnum1         13633
+EndTask
+Task
+Description   Head east on the river, until you get to the Dragon Sea.~
+Type          2
+Vnum1         13686
+EndTask
+Task
+Description   Navigate the Dragon Sea, until you find a Dock.~
+Type          2
+Vnum1         13695
+EndTask
+Task
+Description   Head west into New Thalos, and find the Center of the Market Square.~
+Type          2
+Vnum1         13406
+EndTask
+End
+
+#END

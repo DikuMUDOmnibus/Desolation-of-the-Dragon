@@ -1,0 +1,347 @@
+Name        Mage~
+Class       0
+AttrPrime   3
+AttrString  ~
+Weapon      10312
+Guild       3018
+Skilladept  95
+Thac0       18
+Thac32      10
+Hpmin       2
+Hpmax       6
+HpCLev      12
+HpCAdd      1
+Mana        1
+ExpBase     26779888
+ExpPower    322270
+Skill 'acid blast' 6 95 15 16
+Skill 'acid rain' 56 95 150 24
+Skill 'animate dead' 16 95 5 12
+Skill 'anti magic shell' 48 95 100 24
+Skill 'armor' 5 95 5 12
+Skill 'blindness' 12 95 15 24
+Skill 'burning hands' 6 95 15 24
+Skill 'cacaodemon' 30 95 50 24
+Skill 'calm' 4 95 15 24
+Skill 'cause serious' 45 95 9 12
+Skill 'chain lightning' 25 95 30 24
+Skill 'charm vegetable' 7 95 5 12
+Skill 'chill touch' 3 95 15 12
+Skill 'colour spray' 14 95 20 24
+Skill 'comprehend languages' 1 95 10 12
+Skill 'cone of cold' 17 95 15 16
+Skill 'conjure elemental' 16 95 30 24
+Skill 'continual light' 10 95 10 24
+Skill 'curse' 13 95 20 24
+Skill 'darkness' 5 95 15 12
+Skill 'detect invisibility' 2 95 5 12
+Skill 'detect magic' 1 95 5 12
+Skill 'disintegrate' 48 95 45 12
+Skill 'dispel magic' 9 95 15 12
+Skill 'dome of protection' 51 95 50 24
+Skill 'dragon ride' 32 95 20 12
+Skill 'enchant armor' 16 95 100 48
+Skill 'enchant weapon' 14 95 100 48
+Skill 'enlarge' 44 95 50 24
+Skill 'faerie fire' 5 95 10 12
+Skill 'fear' 8 95 15 12
+Skill 'find familiar' 2 95 30 24
+Skill 'fireball' 25 95 50 45
+Skill 'fireshield' 40 95 40 24
+Skill 'fly' 11 95 15 12
+Skill 'gate' 55 95 100 24
+Skill 'group fly' 24 95 30 12
+Skill 'gust of wind' 10 95 2 12
+Skill 'haste' 23 95 20 12
+Skill 'ice storm' 11 95 15 12
+Skill 'identify' 20 95 25 24
+Skill 'incendiary cloud' 45 95 60 36
+Skill 'infravision' 8 95 7 12
+Skill 'invisibility' 4 95 5 12
+Skill 'juggernaut' 53 95 80 24
+Skill 'knock' 3 95 10 12
+Skill 'know alignment' 7 95 10 12
+Skill 'know monster' 9 95 20 12
+Skill 'magic missile' 1 95 15 16
+Skill 'major creation' 28 95 45 24
+Skill 'major invulnerability' 27 95 50 24
+Skill 'major track' 20 95 20 12
+Skill 'meteor swarm' 36 95 35 24
+Skill 'minor creation' 8 95 30 24
+Skill 'minor invulnerability' 20 95 25 12
+Skill 'minor track' 12 95 10 12
+Skill 'monsum five' 16 95 20 24
+Skill 'monsum four' 12 95 17 24
+Skill 'monsum one' 4 95 10 24
+Skill 'monsum seven' 22 95 25 24
+Skill 'monsum six' 18 95 22 24
+Skill 'monsum three' 10 95 15 24
+Skill 'monsum two' 7 95 12 24
+Skill 'paralyze' 20 95 15 36
+Skill 'polymorph self' 9 95 10 12
+Skill 'portal' 43 95 50 12
+Skill 'power word blind' 16 95 10 24
+Skill 'power word kill' 23 95 10 30
+Skill 'prismatic spray' 17 95 40 36
+Skill 'refresh' 6 95 5 12
+Skill 'scare' 4 95 3 24
+Skill 'second wind' 20 95 5 12
+Skill 'shield' 1 95 5 24
+Skill 'shocking grasp' 2 95 15 12
+Skill 'sleep' 3 95 15 24
+Skill 'slowness' 19 95 20 12
+Skill 'stone skin' 26 95 20 24
+Skill 'strength' 6 95 10 12
+Skill 'succor' 24 95 15 24
+Skill 'summon' 27 95 20 36
+Skill 'teleport' 17 95 33 12
+Skill 'teleport without error' 30 95 20 12
+Skill 'true sight' 29 95 20 24
+Skill 'water breath' 9 95 15 12
+Skill 'weakness' 6 95 10 12
+Skill 'web' 11 95 3 12
+Skill 'wizardeye' 35 95 40 24
+Skill 'brew' 60 95 0 0
+Skill 'mount' 1 95 0 12
+Skill 'retreat' 1 95 0 0
+Skill 'aarakocra' 1 95 0 0
+Skill 'common' 1 95 0 0
+Skill 'dwarven' 1 95 0 0
+Skill 'elvish' 1 95 0 0
+Skill 'giantish' 1 95 0 0
+Skill 'gnomish' 1 95 0 0
+Skill 'halfling' 1 95 0 0
+Skill 'mindflayer' 1 95 0 0
+Skill 'ogre' 1 95 0 0
+Skill 'orcish' 1 95 0 0
+Skill 'trollese' 1 95 0 0
+Skill 'vegetable lore' 1 95 0 0
+Title
+Man~
+Woman~
+Title
+Apprentice of Magic~
+Apprentice of Magic~
+Title
+Spell Student~
+Spell Student~
+Title
+Scholar of Magic~
+Scholar of Magic~
+Title
+Delver in Spells~
+Delveress in Spells~
+Title
+Medium of Magic~
+Medium of Magic~
+Title
+Scribe of Magic~
+Scribess of Magic~
+Title
+Seer~
+Seeress~
+Title
+Sage~
+Sage~
+Title
+Illusionist~
+Illusionist~
+Title
+Abjurer~
+Abjuress~
+Title
+Invoker~
+Invoker~
+Title
+Enchanter~
+Enchantress~
+Title
+Conjurer~
+Conjuress~
+Title
+Magician~
+Witch~
+Title
+Maker~
+Maker~
+Title
+Savant~
+Savant~
+Title
+Magus~
+Craftess~
+Title
+Warlock~
+War Witch~
+Title
+Demi-Sorcerer~
+Demi-Sorceress~
+Title
+Sorcerer~
+Sorceress~
+Title
+Elder Sorcerer~
+Elder Sorceress~
+Title
+Grand Sorcerer~
+Grand Sorceress~
+Title
+Great Sorcerer~
+Great Sorceress~
+Title
+Golem Maker~
+Golem Maker~
+Title
+Greater Golem Maker~
+Greater Golem Maker~
+Title
+Maker of Stones~
+Maker of Stones~
+Title
+Maker of Potions~
+Maker of Potions~
+Title
+Maker of Staves~
+Maker of Staves~
+Title
+Green Wizard~
+Green Wizard~
+Title
+Brown Wizard~
+Brown Wizard~
+Title
+Blue Wizard~
+Blue Wizard~
+Title
+Red Wizard~
+Red Wizard~
+Title
+Grey Wizard~
+Grey Wizard~
+Title
+White Wizard~
+White Wizard~
+Title
+Silver Wizard~
+Silver Wizard~
+Title
+Gold Wizard~
+Gold Wizard~
+Title
+Platinum Wizard~
+Platinum Wizard~
+Title
+Diamond Wizard~
+Diamond Wizard~
+Title
+Archmage of Rods~
+Archmage of Rods~
+Title
+Archmage of Wands~
+Archmage of Wands~
+Title
+Archmage of Staves~
+Archmage of Staves~
+Title
+Archmage of Orbs~
+Archmage of Orbs~
+Title
+Demon Summoner~
+Demon Summoner~
+Title
+Greater Demon Summoner~
+Greater Demon Summoner~
+Title
+Dragon Charmer~
+Dragon Charmer~
+Title
+Greater Dragon Charmer~
+Greater Dragon Charmer~
+Title
+Master of Demons~
+Mistress of Demons~
+Title
+Master of Dragons~
+Mistress of Dragons~
+Title
+Master of all Magic~
+Mistress of all Magic~
+Title
+Master Mage~
+Master Mage~
+Title
+Legendary Sorcerer~
+Legendary Sorceress~
+Title
+Legendary Sorcerer~
+Legendary Sorceress~
+Title
+Legendary Sorcerer~
+Legendary Sorceress~
+Title
+Legendary Sorcerer~
+Legendary Sorceress~
+Title
+Legendary Sorcerer~
+Legendary Sorceress~
+Title
+Legendary Sorcerer~
+Legendary Sorceress~
+Title
+Legendary Sorcerer~
+Legendary Sorceress~
+Title
+Legendary Sorcerer~
+Legendary Sorceress~
+Title
+Legendary Sorcerer~
+Legendary Sorceress~
+Title
+Avatar~
+Avatar~
+Title
+Acolyte~
+Acolyte~
+Title
+Neophyte~
+Neophyte~
+Title
+Creator~
+Creator~
+Title
+Savior~
+Savior~
+Title
+Demi God~
+Demi Goddess~
+Title
+Immortal~
+Immortal~
+Title
+Lesser God~
+Lesser Goddess~
+Title
+God~
+Goddess~
+Title
+Greater God~
+Greater Goddess~
+Title
+Ascendant God~
+Acendant Goddess~
+Title
+Exalted God~
+Exalted Goddess~
+Title
+Ancient One~
+Ancient One~
+Title
+Eternal One~
+Eternal One~
+Title
+Infinite One~
+Infinite One~
+Title
+Supreme Entity~
+Supreme Entity~
+End

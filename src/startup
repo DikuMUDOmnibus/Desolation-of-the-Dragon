@@ -1,0 +1,58 @@
+#!/bin/csh -f
+
+umask 006
+
+# Change to area directory.
+cd ../area
+
+# Set limits.
+#nohup
+#nice
+#limit cputime 90m
+#limit stack 2048k
+limit coredumpsize unlimited
+limit stacksize unlimited
+
+if ( -e shutdown.txt ) rm -f shutdown.txt
+
+while ( 1 )
+    # If you want to have logs in a different directory,
+    #   change the 'set logfile' line to reflect the directory name.
+    set index = 999
+    while ( 1 )
+	@ index++
+	set logfile = ../log/$index.log
+	if ( ! -e $logfile ) break
+    end
+
+#    killall -9 webclient.cgi >>&! $logfile
+#    killall -9 webserver >>&! $logfile
+#    ~/imc/webserver.sh
+
+    # Copy the binary before we run so we have the correct one that goes
+    # with the core if/when we crash
+    cp ../src/dotd ../log/$index.bin
+
+    # Run SMAUG.
+    if ( -e gdb ) then
+	gdb ../src/dotd >>&! $logfile < ../src/gdb_cmd_list
+    else
+	../src/dotd >>&! $logfile
+    endif
+
+    if ( -e core ) then
+	mv core ../log/$index.core
+	gdb ../log/$index.bin ../log/$index.core >>&! $logfile < ../src/gdb_cmd_list
+    else
+	echo "Normal termination." >>&! $logfile
+	rm ../log/$index.bin
+    endif
+
+    # Restart, giving old connections a chance to die.
+    if ( -e shutdown.txt ) then
+	rm -f shutdown.txt
+	exit 0
+    endif
+
+    sleep 3
+end

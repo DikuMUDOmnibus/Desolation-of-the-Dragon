@@ -1,0 +1,20 @@
+#CURRINDEX
+Vnum           3290
+Primary        1
+Name           Silverstone Bank~
+Charge         0
+Currency       100 1 0
+Currency       50 2 0
+Currency       3290 4 0
+End
+
+#CURRINDEX
+Vnum           3200
+Primary        1
+Name           Zifnab's Magic Shop~
+Charge         0
+Currency       200 1 0
+Currency       100 2 0
+End
+
+#END

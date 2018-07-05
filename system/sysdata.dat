@@ -1,0 +1,50 @@
+#SYSTEM
+Highplayers    36
+Highplayertime Sat Feb 14 12:44:30 1998~
+LongestUptime  5491093
+Denynewplayers 0
+Nameresolving  0
+Waitforauth    0
+Specials       1
+Readallmail    70
+Readmailfree   1
+Writemailfree  1
+Takeothersmail 70
+Muse           74
+Think          61
+Build          68
+Log            65
+Protoflag      70
+Overridepriv   70
+Msetplayer     74
+Stunplrvsplr   65
+Stunregular    15
+Damplrvsplr    100
+Damplrvsmob    100
+Dammobvsplr    100
+Dammobvsmob    100
+Forcepc        72
+Saveflags      2557
+Savefreq       0
+Introdisable   0
+AggroPrcnt     95
+TotalLogins    49295
+LogDef         0 61 Normal~
+LogDef         1 61 Log~
+LogDef         2 73 Never~
+LogDef         3 61 Build~
+LogDef         4 73 High~
+LogDef         5 61 Comm~
+LogDef         6 61 PC~
+LogDef         7 61 HTTPD~
+LogDef         8 70 I3~
+LogDef         9 70 IMCDEBUG~
+LogDef         10 61 Monitor~
+LogDef         11 61 BUG~
+LogDef         12 70 Debug~
+LogDef         13 65 Magic~
+LogDef         14 61 All~
+LogDef         15 61 IRC~
+End
+
+#END

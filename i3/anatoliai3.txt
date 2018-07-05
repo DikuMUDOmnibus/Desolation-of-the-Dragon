@@ -1,0 +1,16 @@
+Anatolia 2.1 Intermud-3
+-----------------------
+
+In comm.c, when looking for act_new, your looking for act_color instead.
+Placement of the code is still the same.
+
+In i3cfg.h, in the #ifdef I3ROM section:
+
+Find:
+   #define CH_CLAN(ch)		((ch)->clan)
+   #define CH_CLANNAME(ch)	(clan_table[(ch)->clan].who_name)
+Replace with:
+   #define CH_CLAN(ch)		( 0 == 1 )
+   #define CH_CLANNAME(ch)	( "" )
+
+Anatolia does not appear to come with clan support.

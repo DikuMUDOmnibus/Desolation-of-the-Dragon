@@ -1,0 +1,211 @@
+#HERB
+Name         pipeweed~
+Type         Herb
+Flags        0
+Rounds       5
+Dammsg       smoke~
+End
+
+#HERB
+Name         black gwyvel~
+Type         Herb
+Flags        0
+Target       1
+Minpos       7
+Slot         1
+Rounds       12
+Code         spell_smaug
+Dammsg       smoke~
+Hitvict      You start to cough and choke!~
+Affect       '' 13 '-10' 0
+End
+
+#HERB
+Name         vermeir~
+Type         Herb
+Flags        0
+Target       3
+Minpos       5
+Slot         2
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Hitchar      .~
+Hitvict      You feel a sparkling warmth flow through your limbs.~
+Hitroom      $N leans back, relishing the flavor of the vermeir.~
+Affect       '' 14 '20' 0
+End
+
+#HERB
+Name         nooracht~
+Type         Herb
+Flags        2097152
+Target       3
+Minpos       5
+Slot         3
+Rounds       4
+Code         spell_smaug
+Dammsg       ~
+Wearoff      Your feet slowly lower to the ground.~
+Hitvict      The acrid taste of the smoke overwhelms your senses. You feel light headed.~
+Hitroom      $N grimaces at the acrid flavor of the nooracht.~
+Affect       '30' 0 '' 2097152
+Affect       '' 12 '20' 0
+End
+
+#HERB
+Name         occadaal~
+Type         Herb
+Flags        0
+Target       3
+Slot         4
+Code         spell_smaug
+Dammsg       ~
+Hitvict      The sharp flavor of the smoke sends a flow of warmth through your body.~
+Hitroom      $N's eyes water as the smoke flows around $m.~
+Affect       '' 13 '20' 0
+End
+
+#HERB
+Name         breadl~
+Type         Herb
+Flags        0
+Target       3
+Minpos       5
+Slot         5
+Code         spell_smaug
+Dammsg       ~
+Wearoff      Everything about you takes on it's normal drab tone.~
+Hitvict      Life takes on a brighter, crisper outlook as you savor the breadl's flavor.~
+Hitroom      $N smiles as $s enjoys the mellow flavor of the breadl.~
+Affect       '10' 0 '' 4194304
+End
+
+#HERB
+Name         marijuana~
+Type         Herb
+Flags        1048576
+Target       3
+Slot         6
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Wearoff      You're sober enough now to wonder if your eyes are blood shot.~
+Wearoffroom  $n pulls out some eye drops from $s pocket.~
+Wearoffsoon  You start to come down off your buzz.~
+Hitvict      You start to feel all tingly.~
+Hitroom      $n's eyes look a little bloodshot.~
+Affect       '5' 0 '' 2097152
+End
+
+#HERB
+Name         bittersweet~
+Type         Herb
+Flags        0
+Target       3
+Slot         7
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Hitvict      You cringe as you start feeling a sickness come over you.~
+Hitroom      $ starts vomiting all over the place!~
+Affect       '' 13 '-10' 0
+End
+
+#HERB
+Name         eucalyptus~
+Type         Herb
+Flags        1048576
+Target       3
+Slot         8
+Guild        0
+Code         spell_smaug
+Dammsg       ''~
+Hitchar      $n looks much more healthier now!~
+Hitvict      As you exhale, you feel a warmth flow through your body..~
+Hitroom      $n looks much more healthier now!~
+Affect       '' 13 '75' 0
+End
+
+#HERB
+Name         blessed thistle~
+Type         Herb
+Flags        1048576
+Target       3
+Slot         9
+Guild        0
+Code         spell_smaug
+Dammsg       ''~
+Wearoff      You fell less blessed now.~
+Wearoffroom  $n looks less blessed.~
+Wearoffsoon  The blessed feeling seems to diminish a little now.~
+WearoffsoonR $n's divineness fades a little.~
+Hitvict      A very blessed feeling comes over you.~
+Hitroom      $n suddenly looks more divine.~
+Affect       '6*4' 24 '-1' 0
+Affect       '6*4' 18 '1' 0
+End
+
+#HERB
+Name         crack~
+Type         Herb
+Flags        1048576
+Slot         10
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Affect       '40' 3 '-5' 0
+End
+
+#HERB
+Name         elder bark~
+Type         Herb
+Flags        1048576
+Target       3
+Slot         11
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Wearoff      you suddenly become less aware of things around you.~
+Wearoffroom  $n's vision has returned to normal.~
+Hitvict      You feel more aware of your surroundings.~
+Hitroom      $n can see more clearly now...~
+Affect       'l*4' 26 'detect_invisibility' 8
+End
+
+#HERB
+Name         ginko root~
+Type         Herb
+Flags        1048576
+Target       3
+Slot         12
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Wearoff      You suddenly appear!~
+Wearoffroom  $N has suddenly appeared.~
+Wearoffsoon  $N is fading in and out of existance!~
+Hitchar      $N is disappearing!~
+Hitvict      As you exhale, you slowly fade a little more out of existance.~
+Hitroom      $N fades out of existance.~
+Affect       '24*4' 0 '' 2
+End
+
+#HERB
+Name         kind~
+Type         Herb
+Flags        1048576
+Target       3
+Slot         13
+Guild        0
+Code         spell_smaug
+Dammsg       ~
+Wearoff      You're sober enough now to wonder if your eyes are blood shot.~
+Wearoffroom  $n pulls out some eye drops from $s pocket.~
+Wearoffsoon  You start to come down off your buzz.~
+Hitvict      You start to feel all tingly.~
+Hitroom      $n's eyes look a little bloodshot.~
+Affect       '100' 59 '100' 2097152
+End
+
+#END

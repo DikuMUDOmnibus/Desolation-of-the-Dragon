@@ -1,0 +1,36 @@
+Envy2.2
+-------
+
+In the save.c install, locate function fread_char and find the following:
+
+	else if ( !str_cmp ( word, "Afft" ) )
+	  {
+
+	      int status;
+
+	      paf                 = new_affect();
+
+	      paf->type           = affect_lookup( fread_string( fp,
+								&status ) );
+	      paf->duration       = fread_number( fp, &status );
+	      paf->modifier       = fread_number( fp, &status );
+	      paf->location       = fread_number( fp, &status );
+	      paf->bitvector      = fread_number( fp, &status );
+	      paf->deleted        = FALSE;
+	      paf->next           = ch->affected;
+	      ch->affected        = paf;
+	  }
+
+   Directly below that, add:
+
+#ifdef I3
+      else if( i3load_char( ch, fp, word ) )
+	   ;
+#endif
+
+In i3cfg.h, in the #ifdef I3MERC section, find:
+
+   #define CH_AFK(ch)		( 0 == 1 )
+
+replace with:
+   #define CH_AFK(ch)		(IS_SET((ch)->act, PLR_AFK))

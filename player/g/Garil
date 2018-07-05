@@ -1,0 +1,2015 @@
+#PLAYER
+Version      3
+Name         Garil~
+Sex          1
+Race         1
+Languages    16515071 -262145
+Level        0 75 1
+Level        1 75 1
+Level        2 75 1
+Level        3 75 1
+Level        4 75 1
+Level        5 75 1
+Level        6 75 1
+Level        7 75 1
+Level        8 75 1
+Level        9 75 1
+Level        10 75 1
+Level        11 75 1
+Level        12 75 1
+Level        13 75 1
+Level        14 75 1
+Level        15 75 1
+Trust        75
+Played       183460212
+Room         900
+HpManaMove   1000 1000 214 0 220 0
+Regens       0 0 0
+Money        0 0 0 0 0 -1
+BankMoney    0 0 0 0 0 -1
+Exp          2000000000
+Act          1107304002
+Act2         9
+Position     8
+Bodyparts    -1073739777
+Practice     2
+SavingThrows 0 0 0 0 0
+Alignment    0
+Favor        0
+Glory        2
+MGlory       2
+Hitroll      0
+Damroll      0
+Armor        -50
+Wimpy        10
+Resistant    6400
+Immune       2100224
+Restore_time 1074053306
+Time_Imm     976073067
+Time_Created 976074145
+Times_played 616
+Mentalstate  0
+Password     GajHm3QhJ6POg~
+Alias        zreset~ reset area~ 0
+Alias        immtalk~ think~ 0
+Alias        dump~ at 3293 drop all~ 0
+Alias        proplist~ property list~ 0
+Alias        rme~ rset exit~ 0
+Alias        rfs~ rset flags indoors prototype~ 0
+Alias        wg~ word_games~ 0
+Rank         Supreme Being~
+Title         the Supreme Being~
+Homepage     http://www.dotd.com~
+Bio          Garil is the administrator of the MUD.  Mail him at dotd@dotd.com
+blah
+~
+Prompt       R:%r i%I+> ~
+Pagerlen     58
+WizInvis     61
+LogSeverity  60 Build~
+LogSeverity  60 PC~
+LogSeverity  60 I3~
+LogSeverity  69 BUG~
+LogSeverity  69 Debug~
+LogSeverity  69 Magic~
+LogSeverity  89 IRC~
+AFKSeverity  59 Normal~
+AFKSeverity  98 Build~
+AFKSeverity  69 Comm~
+AFKSeverity  59 PC~
+AFKSeverity  59 HTTPD~
+AFKSeverity  59 I3~
+AFKSeverity  90 Monitor~
+AFKSeverity  69 BUG~
+AFKSeverity  69 Debug~
+AFKSeverity  69 Magic~
+AFKSeverity  89 IRC~
+Flags        792
+MKills       924
+MDeaths      0
+AttrPerm     25 25 25 25 25 3 16
+AttrMod      215 25 25 25 25 25 25
+Condition    0 88 88 85
+Site         garil
+User         UNKNOWN  
+Spell        95 'acid blast'
+Spell        95 'acid rain'
+Spell        95 'aid'
+Spell        95 'alchemist acid blast'
+Spell        95 'animal friendship'
+Spell        95 'animal growth'
+Spell        95 'animal summon one'
+Spell        95 'animal summon three'
+Spell        95 'animal summon two'
+Spell        95 'animate dead'
+Spell        95 'animate rock'
+Spell        95 'anti magic shell'
+Spell        95 'armor'
+Spell        95 'astral walk'
+Spell        95 'babel'
+Spell        95 'ballistic attack'
+Spell        95 'barkskin'
+Spell        95 'bless'
+Spell        95 'blindness'
+Spell        95 'breath'
+Spell        95 'breath of acid'
+Spell        95 'breath of fire'
+Spell        95 'breath of frost'
+Spell        95 'breath of gas'
+Spell        95 'breath of lightning'
+Spell        95 'burning hands'
+Spell        95 'cacaodemon'
+Spell        95 'call lightning'
+Spell        95 'calm'
+Spell        95 'cause critical'
+Spell        95 'cause light'
+Spell        95 'cause serious'
+Spell        95 'chain lightning'
+Spell        95 'change form'
+Spell        95 'changestaff'
+Spell        95 'charm'
+Spell        95 'charm person'
+Spell        95 'charm vegetable'
+Spell        95 'chill touch'
+Spell        95 'clone'
+Spell        95 'cloud of poison'
+Spell        95 'colour spray'
+Spell        95 'command'
+Spell        95 'commune'
+Spell        95 'comprehend languages'
+Spell        95 'cone of cold'
+Spell        95 'conjure elemental'
+Spell        95 'continual light'
+Spell        95 'control weather'
+Spell        95 'create food'
+Spell        95 'create light'
+Spell        95 'create water'
+Spell        95 'creeping death'
+Spell        95 'cure blindness'
+Spell        95 'cure critical'
+Spell        95 'cure light'
+Spell        95 'cure poison'
+Spell        95 'cure serious'
+Spell        95 'curse'
+Spell        95 'darkness'
+Spell        95 'demon slayer'
+Spell        95 'detect evil'
+Spell        95 'detect invisibility'
+Spell        95 'detect magic'
+Spell        95 'detect poison'
+Spell        95 'disintegrate'
+Spell        95 'dispel evil'
+Spell        95 'dispel good'
+Spell        95 'dispel magic'
+Spell        95 'dome of protection'
+Spell        95 'domination'
+Spell        95 'dragon ride'
+Spell        95 'dust devil'
+Spell        95 'earth servant'
+Spell        95 'earthquake'
+Spell        95 'enchant armor'
+Spell        95 'enchant weapon'
+Spell        95 'energy drain'
+Spell        95 'enlarge'
+Spell        95 'entangle'
+Spell        95 'faerie fire'
+Spell        95 'faerie fog'
+Spell        95 'fear'
+Spell        95 'feeblemind'
+Spell        95 'find familiar'
+Spell        95 'find traps'
+Spell        95 'fire giant'
+Spell        95 'fire servant'
+Spell        95 'fireball'
+Spell        95 'fireshield'
+Spell        95 'firestorm'
+Spell        95 'flame blade'
+Spell        95 'flamestrike'
+Spell        95 'fly'
+Spell        95 'full heal'
+Spell        95 'gate'
+Spell        95 'geyser'
+Spell        95 'goblin slayer'
+Spell        95 'golem'
+Spell        95 'goodberry'
+Spell        95 'green slime'
+Spell        95 'group fly'
+Spell        95 'group invisibility'
+Spell        95 'group protection from evil'
+Spell        95 'group protection from good'
+Spell        95 'gust of wind'
+Spell        95 'harm'
+Spell        95 'haste'
+Spell        95 'heal'
+Spell        95 'heat stuff'
+Spell        95 'heroes feast'
+Spell        95 'holy armor'
+Spell        95 'holy word'
+Spell        95 'ice storm'
+Spell        95 'identify'
+Spell        95 'illusionary heal'
+Spell        95 'incendiary cloud'
+Spell        95 'infravision'
+Spell        95 'insect growth'
+Spell        95 'invis to animals'
+Spell        95 'invisibility'
+Spell        95 'juggernaut'
+Spell        95 'knock'
+Spell        95 'know alignment'
+Spell        95 'know monster'
+Spell        95 'lightning bolt'
+Spell        95 'locate object'
+Spell        95 'magic missile'
+Spell        95 'major creation'
+Spell        95 'major invulnerability'
+Spell        95 'major track'
+Spell        95 'mana'
+Spell        95 'meteor swarm'
+Spell        95 'minor creation'
+Spell        95 'minor invulnerability'
+Spell        95 'minor track'
+Spell        95 'monsum five'
+Spell        95 'monsum four'
+Spell        95 'monsum one'
+Spell        95 'monsum seven'
+Spell        95 'monsum six'
+Spell        95 'monsum three'
+Spell        95 'monsum two'
+Spell        95 'nasty rash'
+Spell        95 'paralyze'
+Spell        95 'poison'
+Spell        95 'polymorph self'
+Spell        95 'portal'
+Spell        95 'possess'
+Spell        95 'power word blind'
+Spell        95 'power word kill'
+Spell        95 'prismatic spray'
+Spell        95 'protection acid breath'
+Spell        95 'protection electric breath'
+Spell        95 'protection fire breath'
+Spell        95 'protection from breath'
+Spell        95 'protection from cold'
+Spell        95 'protection from drain'
+Spell        95 'protection from electricity'
+Spell        95 'protection from energy'
+Spell        95 'protection from evil'
+Spell        95 'protection from fire'
+Spell        95 'protection from good'
+Spell        95 'protection frost breath'
+Spell        95 'protection gas breath'
+Spell        95 'psionic danger sense'
+Spell        95 'psionic ghost'
+Spell        95 'psychic impersonation'
+Spell        95 'purify'
+Spell        95 'refresh'
+Spell        95 'reincarnate'
+Spell        95 'remove curse'
+Spell        95 'remove paralysis'
+Spell        95 'resurrection'
+Memorized    2 'resurrection'
+Spell        95 'sanctuary'
+Spell        95 'scare'
+Spell        95 'second wind'
+Spell        95 'sense life'
+Spell        95 'shield'
+Spell        95 'shillelagh'
+Spell        95 'shocking grasp'
+Spell        95 'silence'
+Spell        95 'sleep'
+Spell        95 'slow poison'
+Spell        95 'slowness'
+Spell        95 'snare'
+Spell        95 'speak with plants'
+Spell        95 'stone skin'
+Spell        95 'strength'
+Spell        95 'succor'
+Spell        95 'summon'
+Spell        95 'sunray'
+Spell        95 'telekinesis'
+Spell        95 'teleport'
+Spell        95 'teleport without error'
+Spell        95 'transport via plant'
+Spell        95 'travelling'
+Spell        95 'tree'
+Spell        95 'tree travel'
+Spell        95 'true sight'
+Spell        95 'turn'
+Spell        95 'unholy word'
+Spell        95 'vegetable growth'
+Spell        95 'ventriloquate'
+Spell        95 'warp weapon'
+Spell        95 'water breath'
+Spell        95 'water servant'
+Spell        95 'weakness'
+Spell        95 'web'
+Spell        95 'wind servant'
+Spell        95 'wish'
+Spell        95 'wizardeye'
+Spell        95 'word of recall'
+Spell        95 'xaura'
+Skill        95 'adrenalize'
+Skill        95 'aurasight'
+Skill        95 'avoid back attack'
+Skill        95 'backstab'
+Skill        95 'bash'
+Skill        95 'bellow'
+Skill        95 'berserk'
+Skill        95 'bite'
+Skill        95 'blast'
+Skill        95 'blessing'
+Skill        95 'blitz'
+Skill        95 'brew'
+Skill        95 'canibalize'
+Skill        95 'carve'
+Skill        95 'celladjustment'
+Skill        95 'chameleon'
+Skill        95 'chemstimulation'
+Skill        95 'clairvoyance'
+Skill        95 'claw'
+Skill        95 'climb'
+Skill        95 'conceal'
+Skill        95 'convince'
+Skill        95 'cook'
+Skill        95 'deathfield'
+Skill        95 'detonate'
+Skill        95 'detrap'
+Skill        95 'dig'
+Skill        95 'dirt'
+Skill        95 'disarm'
+Skill        95 'disguise'
+Skill        95 'disintegration'
+Skill        95 'dodge'
+Skill        95 'doorbash'
+Skill        95 'doorway'
+Skill        95 'dual wield'
+Skill        95 'eavesdrop'
+Skill        95 'egowhip'
+Skill        95 'esp'
+Skill        95 'evauluate'
+Skill        95 'eyeshot'
+Skill        95 'feed'
+Skill        95 'feign death'
+Skill        95 'find trap'
+Skill        95 'findfood'
+Skill        95 'findwater'
+Skill        95 'first aid'
+Skill        95 'flameshroud'
+Skill        95 'forge'
+Skill        95 'greatsight'
+Skill        95 'haggle'
+Skill        95 'heroic rescue'
+Skill        95 'hide'
+Skill        10 'hunt'
+Skill        95 'hypnosis'
+Skill        95 'hypnotize'
+Skill        95 'imitate'
+Skill        95 'intensify'
+Skill        95 'intuit'
+Skill        95 'jab'
+Skill        95 'kamehame-ha'
+Skill        95 'kick'
+Skill        95 'lay on hands'
+Skill        95 'legsweep'
+Skill        95 'levitation'
+Skill        95 'meditate'
+Skill        95 'memorizing'
+Skill        95 'messenger'
+Skill        95 'mindblank'
+Skill        95 'mindburn'
+Skill        95 'mindmeld'
+Skill        95 'mindoverbody'
+Skill        95 'mindwipe'
+Skill        95 'mount'
+Skill        95 'newskill'
+Skill        95 'nodisarm'
+Skill        95 'parry'
+Skill        95 'pelt'
+Skill        95 'pick'
+Skill        95 'pray'
+Skill        95 'probabilitytravel'
+Skill        95 'psicrush'
+Skill        95 'psiinvis'
+Skill        95 'psiportal'
+Skill        95 'psishield'
+Skill        95 'psistrength'
+Skill        95 'psisummon'
+Skill        95 'psiteleport'
+Skill        95 'punch'
+Skill        95 'quivering palm'
+Skill        95 'rescue'
+Skill        95 'retreat'
+Skill        95 'riding'
+Skill        95 'safe fall'
+Skill        95 'scry'
+Skill        95 'search'
+Skill        95 'sending'
+Skill        95 'shape_staff'
+Skill        95 'sneak'
+Skill        95 'spinkick'
+Skill        95 'spot'
+Skill        95 'spring leap'
+Skill        95 'spy'
+Skill        95 'stance'
+Skill        95 'steal'
+Skill        95 'swim'
+Skill        95 'switch opponents'
+Skill        95 'tail'
+Skill        95 'tan'
+Skill        95 'towerofironwill'
+Skill        95 'trail'
+Skill        95 'ultrablast'
+Skill        95 'vault'
+Skill        95 'warcry'
+Weapon       95 'weapon placeolder'
+Tongue       95 'aarakocra'
+Tongue       95 'ancient'
+Tongue       95 'common'
+Tongue       95 'dragon'
+Tongue       95 'dwarven'
+Tongue       95 'elvish'
+Tongue       95 'giantish'
+Tongue       95 'gith'
+Tongue       95 'gnomish'
+Tongue       95 'goblin'
+Tongue       95 'god'
+Tongue       95 'halfling'
+Tongue       95 'insectoid'
+Tongue       95 'magical'
+Tongue       95 'mammal'
+Tongue       95 'mindflayer'
+Tongue       95 'ogre'
+Tongue       95 'orcish'
+Tongue       95 'pixie'
+Tongue       95 'reptile'
+Tongue       95 'rodent'
+Tongue       95 'sign language'
+Tongue       95 'spiritual'
+Tongue       95 'trollese'
+Lore         95 'animal lore'
+Lore         95 'art of earth'
+Lore         95 'art of ether'
+Lore         95 'art of fire'
+Lore         95 'art of water'
+Lore         95 'art of wind'
+Lore         95 'demonology'
+Lore         95 'drinking'
+Lore         95 'giant lore'
+Lore         95 'necromancy'
+Lore         95 'other lore'
+Lore         95 'people lore'
+Lore         95 'read magic'
+Lore         95 'reptile lore'
+Lore         95 'vegetable lore'
+PsiSpell     95 'test1'
+Killed       17015 1
+Killed       220 3
+Killed       3217 1
+Killed       3232 1
+Killed       3227 4
+Killed       3215 25
+Killed       3234 9
+Killed       3233 13
+Killed       3219 1
+Killed       3246 1
+Killed       3245 1
+Killed       11000 1
+Killed       3221 3
+Killed       8010 4
+Killed       3223 5
+Killed       9007 4
+Killed       3222 2
+Killed       73 6
+Killed       9615 2
+Killed       920 1
+Killed       24909 6
+Killed       37008 17
+Killed       1162 1
+Killed       1171 1
+Killed       1124 9
+i3perm       5
+i3flags	256
+i3listen	dchat dcode dimm~
+IMCPerm      5
+IMCFlags     256
+IMCListen icode
+End
+
+#VARIABLE
+Name         sisyphus~
+Value        0~
+End
+
+#VARIABLE
+Name         VBJphand~
+Value        f~
+End
+
+#VARIABLE
+Name         VBJdhand~
+Value        l~
+End
+
+#VARIABLE
+Name         VBJbet~
+Value        10~
+End
+
+#VARIABLE
+Name         VBJcurr~
+Value        1~
+End
+
+#VARIABLE
+Name         VBJdeck~
+Value        ccccc-cccccccccccccccccc-ccccccccccccccccccccccccccc~
+End
+
+#VARIABLE
+Name         soup~
+Value        done~
+End
+
+#VTRACK
+23051 4
+6401 1
+1110 1
+74 4
+1014 1
+6000 1
+3212 5
+3211 1
+3208 1
+3291 1
+3362 1
+23036 4
+3302 5
+3285 1
+7572 4
+23037 4
+3205 5
+3201 5
+3203 4
+3200 7
+21 4
+15840 4
+3053 1
+3319 1
+6600 2
+3016 1
+7558 1
+3157 1
+3158 1
+999 1
+997 1
+996 1
+993 1
+992 1
+991 1
+990 1
+982 1
+981 1
+980 1
+979 1
+978 1
+977 1
+976 1
+975 1
+974 1
+973 1
+972 1
+971 1
+970 1
+963 1
+961 1
+960 1
+950 1
+940 1
+930 1
+906 1
+905 1
+904 1
+903 1
+3000 1
+1128 1
+37008 8
+36998 1
+80 4
+79 4
+3248 4
+3232 10
+3234 9
+3233 8
+3246 8
+3245 9
+11000 8
+8010 8
+9007 8
+6901 1
+6900 1
+3216 9
+7527 1
+1105 4
+3339 1
+3282 1
+9615 10
+73 10
+3207 5
+101 1
+103 1
+105 1
+108 1
+114 1
+116 1
+118 1
+121 1
+135 1
+137 1
+140 1
+143 1
+145 1
+148 1
+149 1
+151 1
+165 1
+82 4
+1122 10
+1137 1
+29901 1
+29996 1
+6844 1
+18209 1
+29966 1
+1025 1
+1827 1
+1838 1
+152 1
+2702 1
+36907 1
+36902 1
+13113 4
+21740 4
+7525 1
+29751 1
+1001 1
+7506 1
+18225 1
+32047 1
+23055 1
+7285 1
+25008 2
+1443 1
+9658 1
+77 4
+22639 1
+9700 1
+36600 1
+36601 1
+36342 1
+36347 1
+36339 1
+36345 1
+36336 1
+36334 1
+8183 1
+6909 4
+31031 1
+7517 1
+3019 1
+901 1
+3283 1
+32832 1
+37001 1
+279 1
+290 1
+298 1
+299 1
+289 1
+283 1
+277 1
+291 1
+292 1
+273 1
+272 1
+268 1
+6001 5
+265 1
+264 1
+270 1
+269 1
+266 1
+262 5
+260 1
+263 1
+271 1
+267 1
+1112 1
+1109 5
+1943 1
+1902 5
+1903 5
+1904 1
+1916 1
+1917 1
+1918 1
+1919 1
+40107 1
+40105 1
+40103 1
+40104 1
+40106 1
+40108 1
+40160 1
+40159 1
+40158 1
+40157 1
+40155 1
+40154 1
+40153 1
+40144 1
+40143 1
+40135 1
+40133 1
+40137 1
+40131 1
+40132 1
+40199 1
+7531 1
+29759 5
+2002 1
+3223 13
+3256 5
+3296 1
+3065 1
+7190 1
+7113 1
+25505 1
+25503 1
+25502 1
+25501 1
+7110 1
+7103 1
+7104 1
+7112 1
+7111 1
+7279 1
+7399 1
+25500 1
+7120 1
+7123 1
+7041 1
+7106 1
+7107 1
+24046 1
+910 1
+97 4
+920 1
+83 4
+76 4
+3 5
+5 5
+6 5
+7 5
+13 5
+12 5
+19 4
+47 4
+49 5
+11 5
+10 5
+9 5
+4 5
+8 5
+14 5
+2 5
+20 4
+15901 4
+16031 4
+1 5
+3306 4
+16610 5
+2701 5
+21004 4
+1200 4
+1203 4
+27402 5
+27409 5
+7706 4
+36905 4
+36910 4
+36909 6
+16118 4
+15941 4
+9435 4
+5040 4
+5032 4
+5029 4
+5028 4
+5027 4
+3237 5
+2709 4
+3227 12
+5014 4
+46 4
+25511 4
+25509 4
+13827 5
+13769 5
+25504 5
+36305 4
+36911 4
+13716 5
+17000 4
+36904 5
+13775 5
+5217 4
+36903 5
+36906 5
+13715 5
+22625 4
+16055 4
+16061 4
+21013 4
+21005 4
+21003 4
+13717 5
+5107 4
+29753 4
+1000 1
+900 1
+40 1
+13165 4
+15 1
+22 1
+23 1
+30 1
+31 1
+48 1
+50 1
+51 1
+52 1
+53 1
+54 1
+55 5
+56 1
+57 1
+58 5
+59 1
+60 1
+61 1
+62 1
+69 1
+90 1
+98 1
+99 1
+100 1
+7504 1
+7500 3
+6223 1
+3294 1
+6004 1
+16002 1
+2394 1
+6005 1
+515 1
+6201 5
+6100 5
+22601 1
+254 1
+3213 1
+25518 5
+25519 5
+34800 1
+34827 4
+34828 4
+34829 4
+34830 4
+34831 4
+25514 1
+29517 1
+7115 1
+7129 1
+7121 1
+7105 1
+7015 1
+7028 1
+25000 5
+25001 1
+25103 1
+25102 1
+25101 1
+25506 1
+3290 1
+31000 1
+666 1
+902 1
+2253 1
+3259 1
+1003 1
+3297 1
+3299 1
+3293 1
+36604 1
+3375 1
+1498 1
+3222 9
+3063 1
+21130 4
+3104 1
+36931 1
+11600 1
+1400 1
+21002 4
+13774 5
+21001 4
+3121 4
+21011 4
+27050 4
+27029 4
+29904 4
+7205 4
+6800 4
+16625 4
+5024 4
+1133 4
+1791 4
+21228 4
+2714 4
+21286 4
+7201 4
+27014 4
+16022 4
+5118 4
+35611 4
+21340 4
+7402 4
+1201 4
+13766 5
+1202 4
+21312 4
+21313 4
+21314 4
+21315 4
+21317 4
+17009 4
+2829 4
+9608 4
+2704 4
+25025 4
+1413 5
+3414 4
+29755 4
+27077 4
+1204 4
+1411 5
+1701 4
+3202 5
+1132 4
+3413 4
+21319 4
+21279 4
+21325 4
+21341 4
+21330 4
+21328 4
+21244 4
+21250 4
+21246 4
+21229 4
+21264 4
+21261 4
+21263 4
+21203 4
+21299 4
+3288 4
+21216 4
+21249 4
+13074 4
+1129 4
+3225 5
+1420 5
+9604 4
+21259 4
+21206 4
+35647 4
+21239 4
+21214 4
+21336 4
+1707 4
+1414 5
+2707 4
+21254 4
+21213 4
+21284 4
+5254 4
+21209 4
+27006 4
+21224 4
+21251 4
+21242 4
+21208 4
+29552 4
+35641 4
+2705 5
+17017 4
+3224 5
+21014 4
+21221 4
+1795 4
+1797 4
+1792 4
+1793 4
+1709 4
+1758 4
+1787 4
+1708 4
+1705 4
+1784 4
+11624 4
+22618 4
+22623 4
+2711 4
+17015 12
+5106 4
+5114 4
+15927 4
+5122 4
+5103 4
+5111 4
+5100 4
+5101 4
+5124 4
+13076 4
+5104 4
+5038 4
+9602 4
+15919 4
+15920 4
+16012 4
+5120 4
+21245 4
+21219 4
+21288 4
+21292 4
+21294 4
+21285 4
+21291 4
+21290 4
+21295 4
+9605 4
+21240 4
+21223 4
+3418 4
+35642 4
+15913 4
+1798 4
+11614 4
+21212 4
+21301 4
+7707 4
+1130 4
+27032 4
+27015 4
+7211 4
+1421 5
+1796 4
+21255 4
+21247 4
+35638 4
+1135 4
+1901 4
+3415 4
+29756 4
+27049 4
+27071 4
+21276 4
+21215 4
+21205 4
+21234 4
+29550 4
+5119 4
+5110 4
+21298 4
+5123 4
+1104 4
+3204 4
+1767 4
+15818 4
+15822 4
+27028 4
+13073 4
+27004 4
+25510 4
+27033 4
+27012 4
+21220 4
+3238 4
+29923 4
+29925 4
+29926 4
+29921 4
+27038 4
+26012 4
+26010 4
+26007 4
+3226 5
+6203 5
+3230 4
+6202 5
+3229 4
+6204 5
+26008 4
+5207 4
+29905 4
+29559 4
+29554 4
+34124 4
+34125 4
+29910 4
+29754 4
+11615 4
+29915 4
+6205 5
+29906 4
+21275 4
+21297 4
+21241 4
+21202 4
+15922 4
+21227 4
+11617 4
+5105 4
+11626 4
+17014 4
+11616 4
+6912 4
+15817 4
+21274 4
+6911 4
+27019 4
+15903 4
+6225 4
+13728 5
+6802 4
+6702 4
+6805 4
+6806 4
+20102 4
+16300 4
+16635 4
+16301 4
+16615 5
+16620 5
+2153 4
+16630 4
+2150 4
+2121 4
+2120 4
+2119 4
+2154 4
+2155 4
+2161 4
+2160 4
+2159 4
+2157 4
+2158 4
+36216 4
+6624 4
+36219 4
+36218 4
+36215 4
+36220 4
+36217 4
+36754 4
+7627 4
+36750 4
+15925 4
+3209 5
+15921 4
+27011 4
+27000 4
+27003 4
+5108 4
+7700 4
+7701 4
+7702 4
+7704 4
+1134 4
+21248 4
+1706 4
+5022 4
+5026 4
+5030 4
+5031 4
+20004 4
+20011 4
+9516 4
+9500 4
+9501 4
+6810 4
+9515 4
+9513 4
+9512 4
+9527 4
+9514 4
+9535 4
+20009 4
+20008 4
+1900 4
+3311 1
+3316 1
+3321 1
+3221 9
+3220 1
+3219 9
+3218 1
+3217 9
+3210 1
+3214 1
+1010 1
+36678 1
+36676 1
+1019 1
+32000 1
+32001 1
+32002 1
+32003 1
+32004 1
+32005 1
+32006 1
+32007 1
+32008 1
+32009 1
+32010 1
+32016 1
+32011 1
+217 1
+218 1
+220 9
+32099 4
+1100 5
+8000 1
+3292 1
+1432 1
+3239 1
+3240 1
+3215 9
+3206 5
+13828 1
+3235 2
+7528 1
+15833 4
+15834 4
+15835 4
+15836 4
+32800 4
+21157 4
+1013 1
+102 1
+3243 4
+2700 1
+2600 1
+2602 1
+3015 1
+3014 1
+3263 1
+3295 1
+3369 1
+3363 1
+3364 1
+3301 1
+3340 1
+8114 1
+8111 1
+17100 1
+17102 1
+17098 1
+18256 1
+16602 1
+16604 1
+18212 1
+18234 1
+18235 1
+18236 1
+18237 1
+18238 1
+18282 1
+18283 1
+18284 1
+18285 1
+18286 1
+18287 1
+18288 1
+18289 1
+18290 1
+18291 1
+18292 1
+16605 1
+16606 1
+16607 1
+16608 1
+16616 1
+16617 1
+16618 1
+16619 1
+16621 1
+16611 1
+16612 1
+16613 1
+16614 1
+6153 1
+6151 1
+6152 1
+6154 1
+6156 1
+6146 1
+6157 1
+6158 1
+6159 1
+6160 1
+2237 1
+6148 1
+6141 1
+6140 1
+6139 1
+6138 1
+6134 1
+6133 1
+6132 1
+6131 1
+6155 1
+6147 1
+6144 1
+6145 1
+3153 1
+3154 1
+13675 1
+13674 1
+13673 1
+27495 1
+27494 1
+27403 1
+27404 1
+27405 1
+27406 1
+27491 1
+27492 1
+27493 1
+18195 1
+18222 1
+18196 1
+18213 1
+18216 1
+18218 1
+18219 1
+18223 1
+18226 1
+18227 1
+3258 1
+3257 1
+26027 4
+3308 4
+3309 4
+3284 1
+3304 5
+3307 4
+7571 4
+1401 1
+1402 1
+1403 1
+1404 1
+1405 1
+1406 1
+1407 1
+1408 1
+1409 1
+1410 1
+1412 1
+1415 1
+1416 1
+1417 1
+1418 1
+1419 1
+1422 1
+1423 1
+1424 1
+1425 1
+1426 1
+1427 1
+1428 1
+1429 1
+1430 1
+1431 1
+1433 1
+1434 1
+1435 1
+1436 1
+1437 9
+1438 1
+1439 1
+1440 1
+1441 1
+1442 1
+1444 1
+1445 1
+1446 1
+1447 1
+1448 1
+1449 1
+1450 1
+1451 1
+1452 1
+1453 1
+1454 1
+1455 1
+1456 1
+1457 1
+1458 1
+1459 1
+1460 1
+1461 1
+1462 1
+1463 1
+1470 1
+1471 1
+1472 1
+1474 1
+1476 1
+1499 1
+1500 1
+13000 1
+13001 1
+13002 1
+13003 1
+13004 1
+13005 1
+13006 1
+13007 1
+13008 1
+13400 1
+13401 1
+13402 1
+13403 1
+13404 1
+13405 1
+13406 1
+13407 1
+13408 1
+13409 1
+13410 1
+13411 1
+13412 1
+13413 1
+13414 1
+13415 1
+13416 1
+13417 1
+13418 1
+13419 1
+13420 1
+13421 1
+13422 1
+13423 1
+13424 1
+13425 1
+13426 1
+13427 1
+13428 1
+13429 1
+13430 1
+13431 1
+13432 1
+13433 1
+13434 1
+13435 1
+13436 1
+13437 1
+13438 1
+13439 1
+13440 1
+13441 1
+13442 1
+13443 1
+13444 1
+13445 1
+13446 1
+13447 1
+13448 1
+13449 1
+13450 1
+13451 1
+13452 1
+13453 1
+13454 1
+13455 1
+13456 1
+13457 1
+13458 1
+13459 1
+13460 1
+13461 1
+13462 1
+13463 1
+13464 1
+13465 1
+13466 1
+13467 1
+13468 1
+13469 1
+13470 1
+13471 1
+13472 1
+13473 1
+13474 1
+13475 1
+13476 1
+13477 1
+13478 1
+13479 1
+13480 1
+13481 1
+13482 1
+13483 1
+13484 1
+13485 1
+13486 1
+13487 1
+13488 1
+13489 1
+13490 1
+13491 1
+13492 1
+13493 1
+13494 1
+13495 1
+13496 1
+13497 1
+13498 1
+13499 1
+13500 1
+13501 1
+13502 1
+13503 1
+13504 1
+13505 1
+13506 1
+13507 1
+13508 1
+13509 1
+13510 1
+13511 1
+13512 1
+13513 1
+13514 1
+13515 1
+13516 1
+13517 1
+13518 1
+13519 1
+13520 1
+13521 1
+13522 1
+13523 1
+13524 1
+13525 1
+13526 1
+13527 1
+13528 1
+13529 1
+13530 1
+13531 1
+13532 1
+13533 1
+13534 1
+13535 1
+13536 1
+13537 1
+13538 1
+13539 1
+13540 1
+13541 1
+13542 1
+13543 1
+13544 1
+13545 1
+13546 1
+13547 1
+13548 1
+13549 1
+13550 1
+13551 1
+13552 1
+13553 1
+13554 1
+13555 1
+13556 1
+13557 1
+13558 1
+13559 1
+13560 1
+13561 1
+13562 1
+13563 1
+13564 1
+13565 1
+13566 1
+13567 1
+13568 1
+13569 1
+13570 1
+13571 1
+13572 1
+13573 1
+13574 1
+13575 1
+13576 1
+13577 1
+13578 1
+13579 1
+13580 1
+13581 1
+13582 1
+13583 1
+13584 1
+13585 1
+13586 1
+13587 1
+13588 1
+13589 1
+13590 1
+13591 1
+13592 1
+13593 1
+13594 1
+13595 1
+13596 1
+13597 1
+13598 1
+13599 1
+13600 1
+13601 1
+13602 1
+13603 1
+13604 1
+13605 1
+13606 1
+13607 1
+13608 1
+13609 1
+13610 1
+13611 1
+13612 1
+13613 1
+13614 1
+13615 1
+13616 1
+13617 1
+13618 1
+13619 1
+13620 1
+13621 1
+13622 1
+13623 1
+13624 1
+13625 1
+13626 1
+13627 1
+13628 1
+13629 1
+13630 1
+13631 1
+13632 1
+13633 1
+13634 1
+13635 1
+13636 1
+13637 1
+13638 1
+13639 1
+13640 1
+13641 1
+13642 1
+13643 1
+13644 1
+13645 1
+13646 1
+13647 1
+13648 1
+13649 1
+13650 1
+13651 1
+13652 1
+13168 4
+13653 1
+13654 1
+13655 1
+13656 1
+13657 1
+13658 1
+13659 1
+13660 1
+13661 1
+13662 1
+13663 1
+13664 1
+13665 1
+13666 1
+13667 1
+13668 1
+13669 1
+13670 1
+13671 1
+13672 1
+13676 1
+13677 1
+13678 1
+13679 1
+13680 1
+13681 1
+13682 1
+13683 1
+13684 1
+13685 1
+13686 1
+13687 1
+13688 1
+13689 1
+13690 1
+13691 1
+13692 1
+13693 1
+13694 1
+13695 1
+13696 1
+13697 1
+13698 1
+13699 1
+13703 1
+13704 1
+13705 1
+13706 1
+13707 1
+13708 1
+13709 1
+13710 1
+13711 1
+13712 1
+13713 1
+13714 1
+13718 1
+13719 1
+13720 1
+13721 1
+13722 1
+13723 1
+13724 1
+13725 1
+13726 1
+13727 1
+13729 1
+13730 1
+13731 1
+13732 1
+13733 1
+13734 1
+13735 1
+13736 1
+13737 1
+13738 1
+13739 1
+13740 1
+13741 1
+13742 1
+13743 1
+13744 1
+13745 1
+13746 1
+13747 1
+13748 1
+13749 1
+13750 1
+13751 1
+13752 1
+13753 1
+13754 1
+13755 1
+13756 1
+13757 1
+13758 1
+13759 1
+13760 1
+13761 1
+13762 1
+13763 1
+13764 1
+13765 1
+13767 1
+13768 1
+13770 1
+13771 1
+13772 1
+13773 1
+13776 1
+13777 1
+13778 1
+13779 1
+13780 1
+13781 1
+13782 1
+13783 1
+13784 1
+13785 1
+13786 1
+13787 1
+13788 1
+13789 1
+13790 1
+13791 1
+13792 1
+13793 1
+13794 1
+13795 1
+13796 1
+13797 1
+13798 1
+13799 1
+13800 1
+13801 1
+13802 1
+13803 1
+13804 1
+13805 1
+13806 1
+13807 1
+13808 1
+13809 1
+13810 1
+13811 1
+13812 1
+13813 1
+13814 1
+13815 1
+13816 1
+13817 1
+13818 1
+13819 1
+13820 1
+13821 1
+13822 1
+13823 1
+13824 1
+13825 1
+13826 1
+13829 1
+13830 1
+13831 1
+13832 1
+13833 1
+13834 1
+13835 1
+13836 1
+13837 1
+13838 1
+13839 1
+13840 1
+13841 1
+13842 1
+13843 1
+13844 1
+13845 1
+13846 1
+13847 1
+13848 1
+13849 1
+13850 1
+13901 1
+13902 1
+13903 1
+13904 1
+13905 1
+13906 1
+13907 1
+13908 1
+13909 1
+13910 1
+13911 1
+13912 1
+13913 1
+13914 1
+13915 1
+13916 1
+13917 1
+13918 1
+13919 1
+13920 1
+13921 1
+13922 1
+13923 1
+13924 1
+13925 1
+13926 1
+13927 1
+13928 1
+13929 1
+13930 1
+13931 1
+13932 1
+13933 1
+13935 1
+13936 1
+13937 1
+13938 1
+13939 1
+13940 1
+13941 1
+13942 1
+13943 1
+13944 1
+13945 1
+13946 1
+13947 1
+13948 1
+13949 1
+13950 1
+14000 1
+3261 1
+3260 1
+3255 1
+3254 1
+3253 1
+3252 1
+3251 1
+3250 1
+3330 1
+3329 1
+6149 1
+16601 1
+6222 1
+6220 1
+6219 1
+6216 1
+6215 1
+6214 1
+6213 1
+6212 1
+6218 1
+6217 1
+6207 1
+6208 1
+6221 1
+6224 1
+27416 1
+27415 1
+27419 1
+27420 1
+27433 1
+27422 1
+27425 1
+27421 1
+27429 1
+27428 1
+27436 1
+27435 1
+27434 1
+6121 1
+6120 1
+8150 1
+18000 8
+26000 1
+18214 1
+18215 1
+16033 1
+1579 1
+1513 4
+1512 4
+1511 4
+1510 4
+1509 4
+13167 4
+17104 1
+17028 1
+3110 1
+27112 1
+27040 1
+27117 1
+18252 1
+18208 1
+18241 1
+22645 1
+16050 1
+6527 1
+17088 1
+17090 1
+17054 1
+3247 1
+17038 1
+17078 1
+17092 1
+6999 1
+36603 1
+36602 1
+36605 1
+36606 1
+36607 1
+0
+
+#END

@@ -1,0 +1,19 @@
+Sundermud 1.0 Intermud-3
+------------------------
+
+In i3.c, remove the #include statement for tables.h
+And on line 152, remove the wiznet call.
+
+In i3cfg.h, in the #ifdef I3ROM section:
+
+Find:
+   #define CH_CLAN(ch)		((ch)->clan)
+   #define CH_CLANNAME(ch)	(clan_table[(ch)->clan].who_name)
+Replace with:
+   #define CH_CLAN(ch)		((ch)->pcdata->clan_num != -1)
+   #define CH_CLANNAME(ch)	((ch)->pcdata->clan_name)
+
+Find:
+   #define CH_AFK(ch)	(IS_SET((ch)->comm, COMM_AFK ))
+Replace with:
+   #define CH_AFK(ch)	(IS_SET((ch)->act, PLR_AFK ))

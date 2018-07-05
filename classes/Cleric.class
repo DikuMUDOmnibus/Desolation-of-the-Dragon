@@ -1,0 +1,330 @@
+Name        Cleric~
+Class       1
+AttrPrime   4
+AttrString  ~
+Weapon      10315
+Guild       3003
+Skilladept  95
+Thac0       18
+Thac32      12
+Hpmin       3
+Hpmax       15
+HpCLev      12
+HpCAdd      3
+Mana        1
+ExpBase     15052407
+ExpPower    331689
+Skill 'aid' 4 95 5 24
+Skill 'animate dead' 8 95 5 12
+Skill 'armor' 2 95 5 12
+Skill 'astral walk' 30 95 30 12
+Skill 'bless' 1 95 5 12
+Skill 'blindness' 14 95 15 24
+Skill 'cacaodemon' 29 95 50 24
+Skill 'call lightning' 45 95 20 36
+Skill 'calm' 2 95 15 24
+Skill 'cause critical' 10 95 11 24
+Skill 'cause light' 1 95 8 12
+Skill 'cause serious' 7 95 9 12
+Skill 'cloud of poison' 13 95 25 24
+Skill 'comprehend languages' 3 95 10 12
+Skill 'conjure elemental' 13 95 30 24
+Skill 'continual light' 26 95 10 24
+Skill 'create food' 5 95 5 12
+Skill 'create water' 2 95 5 12
+Skill 'cure blindness' 6 95 5 12
+Skill 'cure critical' 10 95 11 24
+Skill 'cure light' 1 95 5 12
+Skill 'cure poison' 17 95 5 12
+Skill 'cure serious' 7 95 9 12
+Skill 'curse' 12 95 20 24
+Skill 'darkness' 3 95 15 12
+Skill 'detect evil' 1 95 5 12
+Skill 'detect invisibility' 5 95 5 12
+Skill 'detect magic' 3 95 5 12
+Skill 'dispel evil' 20 95 15 24
+Skill 'dispel good' 20 95 15 36
+Skill 'dispel magic' 10 95 15 12
+Skill 'dust devil' 3 95 10 120
+Skill 'earthquake' 15 95 15 24
+Skill 'faerie fire' 4 95 10 12
+Skill 'find traps' 16 95 10 12
+Skill 'fireshield' 45 95 40 24
+Skill 'flamestrike' 15 95 15 36
+Skill 'fly' 22 95 15 12
+Skill 'full heal' 54 95 100 24
+Skill 'golem' 15 95 30 24
+Skill 'group protection from evil' 20 95 45 12
+Skill 'harm' 25 95 35 36
+Skill 'heal' 25 95 50 12
+Skill 'heroes feast' 24 95 40 12
+Skill 'holy word' 36 95 30 24
+Skill 'know alignment' 4 95 10 12
+Skill 'locate object' 11 95 20 12
+Skill 'protection acid breath' 40 95 50 24
+Skill 'protection electric breath' 39 95 50 24
+Skill 'protection fire breath' 41 95 50 24
+Skill 'protection from breath' 53 95 200 24
+Skill 'protection from cold' 20 95 40 12
+Skill 'protection from drain' 48 95 40 12
+Skill 'protection from electricity' 18 95 40 12
+Skill 'protection from energy' 19 95 40 12
+Skill 'protection from evil' 7 95 5 12
+Skill 'protection from fire' 21 95 40 12
+Skill 'protection frost breath' 38 95 50 24
+Skill 'protection gas breath' 37 95 50 24
+Skill 'purify' 17 95 0 0
+Skill 'refresh' 3 95 5 12
+Skill 'remove curse' 8 95 5 12
+Skill 'sanctuary' 35 95 50 36
+Skill 'second wind' 9 95 5 12
+Skill 'sense life' 4 95 5 12
+Skill 'succor' 23 95 15 24
+Skill 'summon' 19 95 20 36
+Skill 'true sight' 19 95 20 24
+Skill 'turn' 1 95 5 12
+Skill 'unholy word' 36 95 30 24
+Skill 'word of recall' 15 95 5 12
+Skill 'brew' 55 95 0 0
+Skill 'mount' 1 95 0 12
+Skill 'retreat' 1 95 0 0
+Skill 'aarakocra' 1 95 0 0
+Skill 'common' 1 95 0 0
+Skill 'elvish' 1 95 0 0
+Skill 'giantish' 1 95 0 0
+Skill 'gnomish' 1 95 0 0
+Skill 'halfling' 1 95 0 0
+Skill 'mindflayer' 1 95 0 0
+Skill 'ogre' 1 95 0 0
+Skill 'orcish' 1 95 0 0
+Skill 'trollese' 1 95 0 0
+Skill 'vegetable lore' 1 95 0 0
+Title
+Man~
+Woman~
+Title
+Believer~
+Believer~
+Title
+Attendant~
+Attendant~
+Title
+Acolyte~
+Acolyte~
+Title
+Novice~
+Novice~
+Title
+Missionary~
+Missionary~
+Title
+Adept~
+Adept~
+Title
+Deacon~
+Deaconess~
+Title
+Vicar~
+Vicaress~
+Title
+Priest~
+Priestess~
+Title
+Minister~
+Lady Minister~
+Title
+Canon~
+Canon~
+Title
+Levite~
+Levitess~
+Title
+Curate~
+Curess~
+Title
+Monk~
+Nun~
+Title
+Healer~
+Healess~
+Title
+Chaplain~
+Chaplain~
+Title
+Expositor~
+Expositress~
+Title
+Bishop~
+Bishop~
+Title
+Arch Bishop~
+Arch Lady of the Church~
+Title
+Patriarch~
+Matriarch~
+Title
+Elder Patriarch~
+Elder Matriarch~
+Title
+Grand Patriarch~
+Grand Matriarch~
+Title
+Great Patriarch~
+Great Matriarch~
+Title
+Demon Killer~
+Demon Killer~
+Title
+Greater Demon Killer~
+Greater Demon Killer~
+Title
+Cardinal of the Sea~
+Cardinal of the Sea~
+Title
+Cardinal of the Earth~
+Cardinal of the Earth~
+Title
+Cardinal of the Air~
+Cardinal of the Air~
+Title
+Cardinal of the Ether~
+Cardinal of the Ether~
+Title
+Cardinal of the Heavens~
+Cardinal of the Heavens~
+Title
+High Priest of the Sea~
+High Priestess of the Sea~
+Title
+High Priest of the Earth~
+High Priestess of the Earth~
+Title
+High Priest of the Air~
+High Priestess of the Air~
+Title
+High Priest of the Ether~
+High Priestess of the Ether~
+Title
+High Priest of the Heavens~
+High Priestess of the Heavens~
+Title
+Saviour of the Sea~
+Saviour of the Sea~
+Title
+Saviour of the Earth~
+Saviour of the Earth~
+Title
+Saviour of the Air~
+Saviour of the Air~
+Title
+Saviour of the Ether~
+Saviour of the Ether~
+Title
+Saviour of the Void~
+Saviour of the Void~
+Title
+Supreme Cleric of Virtue~
+Supreme Cleric of Virtue~
+Title
+Supreme Cleric of Humility~
+Supreme Cleric of Humility~
+Title
+Supreme Cleric of Light~
+Supreme Cleric of Light~
+Title
+Supreme Cleric of Power~
+Supreme Cleric of Power~
+Title
+High Priest~
+High Priestess~
+Title
+Lord Bishop~
+Lady Bishop~
+Title
+Lord Cardnal~
+Lady Cardnal~
+Title
+High Lord Priest~
+High Lady Priestess~
+Title
+Lord of the Religion~
+Lady of the Religion~
+Title
+Master Cleric~
+Master Cleric~
+Title
+Legendary Priest~
+Legendary Priest~
+Title
+Legendary Priest~
+Legendary Priest~
+Title
+Legendary Priest~
+Legendary Priest~
+Title
+Legendary Priest~
+Legendary Priest~
+Title
+Legendary Priest~
+Legendary Priest~
+Title
+Legendary Priest~
+Legendary Priest~
+Title
+Legendary Priest~
+Legendary Priest~
+Title
+Legendary Priest~
+Legendary Priest~
+Title
+Legendary Priest~
+Legendary Priest~
+Title
+Avatar~
+Avatar~
+Title
+Acolyte~
+Acolyte~
+Title
+Neophyte~
+Neophyte~
+Title
+Creator~
+Creator~
+Title
+Savior~
+Savior~
+Title
+Demi God~
+Demi Goddess~
+Title
+Immortal~
+Immortal~
+Title
+Lesser God~
+Lesser Goddess~
+Title
+God~
+Goddess~
+Title
+Greater God~
+Greater Goddess~
+Title
+Ascendant God~
+Acendant Goddess~
+Title
+Exalted God~
+Exalted Goddess~
+Title
+Ancient One~
+Ancient One~
+Title
+Eternal One~
+Eternal One~
+Title
+Infinite One~
+Infinite One~
+Title
+Supreme Entity~
+Supreme Entity~
+End

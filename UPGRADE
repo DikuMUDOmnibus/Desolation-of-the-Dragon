@@ -1,0 +1,8 @@
+Note the old OPTIONS file in src/ is no longer used.  Now you must use the
+configure script with appropriate options to enable/disable features.  The
+check for crypt and some other things should now be automatic, and you
+shouldn't have to worry about it but it can still be disabled via the script
+if you so desire.
+
+Some of the file formats may have changed, so be prepared to do a bit of work,
+always make a backup first!

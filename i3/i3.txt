@@ -1,0 +1,463 @@
+Diku Based Intermud-3 Code
+--------------------------
+
+Original version written by Fatal Dimensions, see the LICENSE file.
+Ported to Smaug 1.4a by Samson of Alsherok
+Consolidated for cross-codebase compatibility by Samson of Alsherok
+Permission for me to redistribute was granted by Fatal Dimensions.
+
+Terms of Use
+------------
+
+You may use this snippet provided the following conditions are met:
+
+1. You send me an email telling me you've installed this code on your mud.
+
+   Sending the email does 3 things:
+   A. Provides me feedback on who is using this code and where.
+   B. Provides YOU with "tech support" should something go wrong.
+   C. Motivates me to want to release more snippets in the future.
+
+2. Any included comment headers in the code are left intact. You may
+   add your own, but do not take mine out.
+
+If you can't agree to these terms, don't use this code, and don't expect
+me to help if something breaks while installing it. Harsh? Hardly. I'm
+tired of people who come crawling to whine and complain when they haven't
+bothered to comply with the terms first.
+
+What this code does
+-------------------
+
+A word of caution - this isn't intended for beginning coders.
+You have been warned.
+
+This code gives your mud the ability to connect to the Intermud-3 chat
+network, which is more or less the same idea as the IMC2 network some
+of you may already be familiar with or members of. This originally
+started off as simply a Smaug port of the code I began from, but once
+I had done that I realized this would be of use to far more than just
+Smaug. So once I had the Smaug code working to my satisfaction and
+cleaned up to be less cluttery than what I started with, I set about
+making it compile on several codebases as a standard package.
+The result is what you see here. This code is a vast improvement over
+the Fatal Dimensions code, as it now properly handles TCP exceptions
+and socket read/write errors. It also now supports color throughout.
+It has also been condensed down from the original 14 files to this
+set of 3 for ease of maintenance.
+
+This code should work alongside the IMC2 that comes with Smaug and AckMUD.
+Despite what a number of people have said, Intermud-3 is built upon a
+more stable and expandable protocol. And if your on a host where you
+can't bind more than one port per process, IMC2 ( at least with older versions )
+is out of the question since it requires you to bind an extra port for
+its incoming traffic. I3 is also much cleaner, and its specs are
+publically documented. I3 also does not require that you apply for a
+connection to the network before being allowed to hook up. It is therefore
+recommended that I3 be used in place of IMC2 unless you have some pressing
+reason to be on the IMC2 network as well. The need for having both networks
+has also been lessened greatly by the activation of the IMC2-I3 intermud
+bridge which passes most of the common channel traffic on both networks.
+
+General channel guidelines:
+
+This code comes prepackaged with 3 I3 channels. These 3 channels are
+the existing set of publically accessable channels as of now that are
+intended for Diku based I3 muds.
+
+The chat channel, dchat, can be made available to your players if you
+see fit, but should not be available to newbies. The default level for
+this has been set for 10. This channel is currently bridged and can
+also be seen by the IMC2 network.
+
+The dimm channel should only be made available to your immortals.
+It is intended for the use of immortals only. Suggested level for
+it has been set to 101, a first level immortal on our mud.
+Adjust as needed. This channel is currently bridged and can also
+be seen by the IMC2 network.
+
+The dcode channel is mainly used for asking code related questions
+and should probably be limited to the use of your immortals.
+Suggested level has been set to 101, a first level immortal on our mud.
+Adjust as needed. This channel is currently bridged and can also be
+seen by the IMC2 network.
+ 
+Socials can also be sent over channels, but please try to keep this
+to a minimum. The social messages will be drawn from your mud's internal
+social tables.
+
+This code has been tested and works on the following STOCK codebases:
+
+Smaug 1.02a ( see Smaug102i3.txt ) + the following derivitives:
+  Smaug 1.4a
+  Star Wars Reality 1.0 and 2.0 - see swri3.txt
+  DOTD 2.2.8 - see i3dotd.txt
+  CalareyMud 1.0 - see cm1i3.txt
+  ResortMud 4.0b - see rm4b.txt
+
+Rom 2.4b6 + the following derivitives:
+  RoT 1.4
+  Rogue 2.1a
+  Wurm 2.8c
+  Tartarus 1.0
+  QuickMUD
+  Anatolia 2.1b2 - see anatoliai3.txt
+  Oblivion 1.2 Alpha - see oblivioni3.txt
+  Sundermud 1.0 - see sunderi3.txt
+  EmberMUD 0.9.44a - see i3ember.txt
+  Paradox - see i3paradox.txt
+
+UltraEnvy 0.87j + the following derivitives:
+  Greed 0.99.7 - see i3greed.txt
+
+AckMUD! 4.3.1
+
+Merc 2.2 + the following derivitives:
+  Mythran 3.1.6b
+  Envy 2.2 - see envyi3.txt
+  EOS2 - see EOS2.txt
+  Nimud 4 - see i3nimud.txt
+  Godwars Dystopia 1.4 - see i3dystopia.txt
+  Godwars Deluxe - see i3godwars.txt
+
+CircleMud 3.0bpl20
+
+If your mud is derived from one of the above listed bases, it should
+work without much trouble. Hopefully. :)
+
+Installation Instructions
+-------------------------
+
+DO NOT APPLY TO AFKMUD SOURCE!
+
+1. Place the files i3.c, i3.h, and i3cfg.h in your source directory. 
+
+   STOP HERE IF USING CIRCLEMUD! Open Circle.txt and proceed from there - you cannot use these directions.
+
+   Then in the Makefile, list of C and/or O files, add the following ABOVE them:
+
+#Intermud-3 - Comment out to disable I3 support in your code
+I3 = 1
+
+   Then directly below the list of C and/or O files, add the following:
+   [Note: BSD users - put a period in front of the word ifdef, and in front of the word endif]
+
+ifdef I3
+   C_FILES := i3.c $(C_FILES)
+   O_FILES := i3.o $(O_FILES)
+   C_FLAGS := $(C_FLAGS) -DI3 <codebase flag>
+endif
+
+   Substitute one of the following for <codebase flag>:
+  
+   -DI3SMAUG, -DI3ROM, -DI3ACK, -DI3MERC, -DI3UENVY
+
+2. Make a directory in your main distribution dir called i3, and place the
+   i3.config and i3.channels files in it.
+
+3a. SMAUG: Open mud.h
+
+   Locate the following:
+
+/*
+ * Structure for extended bitvectors -- Thoric
+ */
+struct extended_bitvector
+{
+    unsigned int		bits[XBI]; /* Needs to be unsigned to compile in Redhat 6 - Samson */
+};
+
+   Directly below that, add the following:
+
+#ifdef I3
+   #include "i3.h"
+#endif
+
+   Continue to step 3e
+
+3b. ROM: Open merc.h and locate the following code:
+
+#define IMPLEMENTOR		MAX_LEVEL
+#define	CREATOR			(MAX_LEVEL - 1)
+#define SUPREME			(MAX_LEVEL - 2)
+#define DEITY			(MAX_LEVEL - 3)
+#define GOD			(MAX_LEVEL - 4)
+#define IMMORTAL		(MAX_LEVEL - 5)
+#define DEMI			(MAX_LEVEL - 6)
+#define ANGEL			(MAX_LEVEL - 7)
+#define AVATAR			(MAX_LEVEL - 8)
+#define HERO			LEVEL_HERO
+
+   Directly below that, add the following:
+
+#ifdef I3
+   #include "i3.h"
+#endif
+
+   Continue to step 3e
+
+3c. ACK: Open ack.h and locate the following:
+
+#ifndef DEC_STRFUNS_H
+#include "strfuns.h"
+#endif
+
+#ifndef DEC_ACT_MOB_H
+#include "act_mob.h"
+#endif
+
+   Directly below that, add the following:
+
+#ifdef I3
+   #include "i3.h"
+#endif
+
+   Continue to step 3e
+
+3d. MERC: Open merc.h and locate the following code:
+
+#define PULSE_PER_SECOND	    4
+#define PULSE_VIOLENCE		  ( 3 * PULSE_PER_SECOND)
+#define PULSE_MOBILE		  ( 4 * PULSE_PER_SECOND)
+#define PULSE_TICK		  (30 * PULSE_PER_SECOND)
+#define PULSE_AREA		  (60 * PULSE_PER_SECOND)
+
+   Directly below that, add the following:
+
+#ifdef I3
+   #include "i3.h"
+#endif
+
+   Continue to step 3e
+
+3e. Locate the pc_data struct and add the following to the end:
+
+#ifdef I3
+    I3_CHARDATA  *i3chardata;
+#endif
+
+4. Open interp.c
+
+   Then locate the following section:
+
+if ( !check_social( ch, command, argument )
+
+    Change that to read as follows:
+
+   Add the following condition to whatever series of ifchecks exist there:
+
+#ifdef I3
+	&&   !I3_command_hook( ch, command, argument )
+#endif
+ 
+5. Open comm.c and locate main():
+
+   A. If your mud uses copyover/hotboot, find this section( it may not look EXACTLY like this, adjust as needed ):
+	If your mud does NOT use copyover/hotboot, move to B.
+
+      if( argv[2] && argv[2][0] )
+      {
+         fCopyOver = TRUE;
+         control = atoi( argv[3] );
+      }
+      else
+         fCopyOver = FALSE;
+
+   Change it to read as( while adjusting as needed ):
+
+      if( argv[2] && argv[2][0] )
+      {
+         fCopyOver = TRUE;
+         control = atoi( argv[3] );
+#ifdef I3
+	   I3_socket = atoi( argv[4] );
+#endif
+      }
+      else
+         fCopyOver = FALSE;
+
+   This next part is somewhat tricky. If copyover_recover is called in db.c as is the usual case in
+   most default installs, you need to place the following BEFORE the boot_db call. If it is listed
+   somewhere here in comm.c, the following needs to be placed ABOVE it. Either way, I3_main needs
+   to be called BEFORE copyover_recover or your mud WILL crash every time you do a copyover.
+
+#ifdef I3
+   /* Initialize and connect to Intermud-3 */
+   I3_main( FALSE, port, fCopyOver );
+#endif 
+
+   B. If your mud is NOT using copyover/hotboot:
+
+      Locate the following:
+
+    log_string("Initializing socket");
+    control  = init_socket( port   );
+    control2 = init_socket( port+1 );
+    conclient= init_socket( port+10);
+    conjava  = init_socket( port+20);
+
+   Add the following lines directly below that:
+
+#ifdef I3
+   /* Initialize and connect to Intermud-3 */
+   I3_main( FALSE, port, FALSE );
+#endif
+
+   C. All muds - continue from here:
+
+   Then locate the following section:
+
+    close( control );
+
+   Add the following lines directly below that section:
+
+#ifdef I3
+    I3_shutdown( 0 );
+#endif 
+
+   Then locate function game_loop and find the following section:
+   [Look for game_loop_unix on Merc, Rom, and ACK]
+
+	/*
+	 * Autonomous game motion.
+	 */
+	update_handler( );
+
+   Directly ABOVE that, add the following section:
+
+#ifdef I3
+      I3_loop( );
+#endif
+
+   Then locate function act_string, and find the following code:
+   [On Merc and ACK, locate function act. On Rom, locate function act_new.]
+
+      switch ( *str )
+      {
+      default:  bug( "Act: bad code %c.", *str );
+		bug( "Act: Bad code came from %s", ch->name );
+		i = " <@@@> ";						break;
+
+   Directly below that, add the following:
+   [Your main concern here is to add it underneath the statement that logs the bad code]
+
+#ifdef I3
+	case '$': 
+	    i = "$";
+	    break;
+#endif
+
+6. Open save.c and locate fread_char
+
+   In the case 'I': section, and right before the final break; add the follwing:
+   [Merc22 does not have a case 'I': section, so you'll need to make one.]
+
+#ifdef I3
+	    fMatch = i3load_char( ch, fp, word );
+#endif
+
+   Then locate function fwrite_char, and find the following code:
+
+    fprintf( fp, "End\n\n" );
+    return;
+
+   Directly ABOVE that, add the following:
+
+#ifdef I3
+    i3save_char( ch, fp );
+#endif
+
+   Then in load_char_obj(), locate the following:
+
+    found = FALSE;
+    sprintf( strsave, "%s%c/%s", PLAYER_DIR, tolower(name[0]), capitalize( name ) );
+
+   Directly ABOVE that, add the following:
+
+#ifdef I3
+    i3init_char( ch );
+#endif
+
+7. Open db.c
+   [In some ROM derivs, this is found in recycle.c]
+
+   Find function free_char:
+
+Add the following in the part dealing with ch->pcdata.
+Make sure it goes in BEFORE the pc_data pointer is disposed of!
+
+#ifdef I3
+	free_i3chardata( ch );
+#endif
+
+8. For users of copyover only - Target code may not be exact:
+
+   In function do_copyover, locate the following code:
+
+    DESCRIPTOR_DATA *d, *de_next;
+    char buf [100], buf2[100], buf3[100], buf4[100], buf5[100];
+
+   Directly below that, add:
+
+    char buf6[100];
+
+   Then further down, find the following:
+
+    /* exec - descriptors are inherited */
+    sprintf( buf,  "%d", port );
+    sprintf( buf2, "%d", control );
+    sprintf( buf3, "%d", control2 );
+    sprintf( buf4, "%d", conclient );
+    sprintf( buf5, "%d", conjava );
+  
+    execl( EXE_FILE, "smaug", buf, "hotboot",  buf2, buf3, buf4, buf5, (char *)NULL );
+
+   Change that to read as follows:
+
+#ifdef I3
+   if( I3_is_connected() )
+   {
+	I3_savechanlist();
+	I3_savemudlist();
+   }
+#endif
+
+    /* exec - descriptors are inherited */
+    sprintf( buf,  "%d", port );
+    sprintf( buf2, "%d", control );
+    sprintf( buf3, "%d", control2 );
+    sprintf( buf4, "%d", conclient );
+    sprintf( buf5, "%d", conjava );
+#ifdef I3
+    sprintf( buf6, "%d", I3_socket );
+#else
+    strcpy( buf6, "-1" );
+#endif
+
+    execl( EXE_FILE, "smaug", buf, "hotboot",  buf2, buf3, buf4, buf5, buf6, (char *)NULL );
+
+9. Make clean, recompile.
+
+10. Before you reboot, make sure the i3.config file has been placed in the proper directory
+    and has been configured properly for your mud. The file should be fairly self explanitory.
+    You will not be able to connect to the I3 router until this file is ready.
+
+11. Add the suggested helpfile entries in the i3helps.are file to your help files.
+
+With any luck, you should now be connected to Intermud-3.
+
+If there are any problems with this installation, post your query to the
+Intermud-3 forum located at:
+
+http://www.mud2mud.org
+
+If you've obtained this code from someplace OTHER than my own site
+and you are encountering problems, go download it from my site before
+you contact me for help. I can only support what I work on.
+
+Adventure beckons in the lands of mystique....
+Samson, Implementor of Alsherok
+http://www.alsherok.net
+telnet://alsherok.net:5500
+
+Intermud-3 and IMC2 contact: Samson@Alsherok

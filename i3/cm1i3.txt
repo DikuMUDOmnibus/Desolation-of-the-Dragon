@@ -1,0 +1,33 @@
+CalareyMUD 1.0 Intermud-3
+-------------------------
+
+In i3cfg.h, in the #ifdef I3SMAUG section:
+
+Find:
+   #define CH_CLASSNAME(ch)	(class_table[(ch)->class]->who_name)
+Change to:
+   #define CH_CLASSNAME(ch)	( "" )
+
+CalareyMUD apparently does not have classes.
+
+Find:
+   #define CH_CLAN(ch)	((ch)->pcdata->clan)
+   #define CH_CLANNAME(ch)	((ch)->pcdata->clan->name)
+   #define CH_CLANLEADNAME(ch) ((ch)->pcdata->clan->leader)
+   #define CH_CLANONENAME(ch)  ((ch)->pcdata->clan->number1)
+   #define CH_CLANTWONAME(ch)  ((ch)->pcdata->clan->number2)
+   #define CH_CLANLEADRANK(ch) ((ch)->pcdata->clan->leadrank)
+   #define CH_CLANONERANK(ch)  ((ch)->pcdata->clan->onerank)
+   #define CH_CLANTWORANK(ch)  ((ch)->pcdata->clan->tworank)
+Replace with:
+   #define CH_CLAN(ch)		( 0 == 1 )
+   #define CH_CLANNAME(ch)	( "" )
+   #define CH_CLANLEADNAME(ch) ( 0 == 1 )
+   #define CH_CLANONENAME(ch)  ( 0 == 1 )
+   #define CH_CLANTWONAME(ch)  ( 0 == 1 )
+   #define CH_CLANLEADRANK(ch) ( "Leader" )
+   #define CH_CLANONERANK(ch)  ( "First Officer" )
+   #define CH_CLANTWORANK(ch)  ( "Second Officer" )
+
+CalareyMUD does not support clans in this manner. If someone would care to
+give me macros that will work, I'll be happy to supply them here.

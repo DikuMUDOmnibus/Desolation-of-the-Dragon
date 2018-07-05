@@ -1,0 +1,15 @@
+Smaug 1.02a Intermud-3
+----------------------
+
+In i3cfg.h, in the I3SMAUG section:
+
+Find:
+   #define CH_CLANLEADRANK(ch) ((ch)->pcdata->clan->leadrank)
+   #define CH_CLANONERANK(ch)  ((ch)->pcdata->clan->onerank)
+   #define CH_CLANTWORANK(ch)  ((ch)->pcdata->clan->tworank)
+Replace with:
+   #define CH_CLANLEADRANK(ch) ( "Leader" )
+   #define CH_CLANONERANK(ch)  ( "First Officer" )
+   #define CH_CLANTWORANK(ch)  ( "Second Officer" )
+
+Then find all occurances of xIS_SET and change them to IS_SET

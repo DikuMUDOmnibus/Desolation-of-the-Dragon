@@ -1,0 +1,32 @@
+Eye of the Storm 2 Intermud-3
+-----------------------------
+
+In i3.c, function i3log, find:
+
+   log_string( buf );
+
+Replace with:
+
+   log_string( buf, CHANNEL_LOG, -1 );
+
+Then in i3invis, find:
+
+   save_char_obj( ch );
+
+Replace with:
+
+   save_char_obj( ch, FALSE );
+
+In i3cfg.h, #ifdef IMCMERC section:
+
+Add:
+   #define SMAUGSOCIAL
+   SOCIAL_DATA *get_social( char *command );        
+   #define find_social get_social
+
+Find:
+   #define CH_CLASSNAME(ch)      (class_table[(ch)->class].who_name)
+   #define CH_RANK(ch)           (title_table[(ch)->class][(ch)->level][(ch)->sex == SEX_FEMALE ? 1 : 0])
+Replace with:
+   #define CH_CLASSNAME(ch)      ( "" )
+   #define CH_RANK(ch)           ("")

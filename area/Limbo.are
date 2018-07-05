@@ -1,0 +1,1184 @@
+#AREA   Limbo~
+
+
+
+#VERSION 1
+#AUTHOR Unknown~
+
+#RANGES
+0 111 0 0
+$
+
+#RESETMSG Limbo limbo.. lets do the Limbo Rock!!~
+
+#FLAGS
+536870912 5
+
+#PLANE
+0
+
+#CURRENCY 0
+
+#HIGHECONOMY 0 0 0 0 0 -1
+
+#LOWECONOMY 0 2500000 0 0 0 -1
+
+#CLIMATE 2 2 2
+
+#MOBILES
+#2
+wraith ringwraith nazgul~
+The Ringwraith~
+A Ringwraith stands here.
+~
+Dressed in black, it is almost invisible within the shadows. It promises
+to be a formidable opponent
+~
+129 -2142732286 -1000 C
+45 0 -5 45d8+123 3d6+0
+0 95824
+8 8 1
+16 13 14 16 11 14 13
+0 0 0 0 0
+29 3 450 405 1 1 2000
+20 8 96 64 17152 0 0 0
+S
+#3
+tormentor~
+The tormentor~
+The tormentor stands here.
+~
+He sneers at you.
+~
+2177 4227594 -1000 C
+60 0 -2 20d8+249 2d6+0
+0 12877
+8 8 1
+11 12 12 10 11 10 13
+0 0 0 0 0
+1 3 198 200 1 1 2000
+20 10 2047 0 17152 0 0 0
+S
+#5
+inquisitor~
+The Inquisitor~
+The Inquisitor stands here.
+~
+He sneers at you.
+~
+129 33288 -1000 C
+50 0 -5 50d8+248 3d5+0
+0 230292
+8 8 1
+16 11 17 11 12 18 13
+0 0 0 0 0
+1 3 198 200 1 1 3000
+20 8 2047 0 17152 0 0 0
+S
+#10
+fire elemental~
+A fire elemental~
+A huge fire burns here
+~
+It looks vaguely man-shaped
+~
+3 8 0 C
+8 0 2 8d8+12 3d8+0
+0 1466
+8 8 0
+10 10 10 10 10 10 13
+0 0 0 0 0
+26 3 198 200 1 1 1000
+6 5 0 0 1 2 0 0
+S
+#11
+water elemental~
+A water elemental~
+A large water elemental stands here
+~
+It looks vaguely man-shaped.
+~
+3 8 0 C
+8 0 2 8d8+0 5d6+0
+0 1358
+8 8 0
+10 10 10 10 10 10 13
+0 0 0 0 0
+26 3 198 200 1 1 1000
+6 5 0 32 0 2 0 0
+S
+#12
+earth elemental~
+An earth elemental~
+A large earth elemental stands here
+~
+It looks vaguely man-shaped.
+~
+3 8 0 C
+8 0 2 8d8+11 4d8+0
+0 1454
+8 8 0
+10 10 10 10 10 10 13
+0 0 0 0 0
+26 3 198 200 1 1 1000
+6 5 0 32 0 8 0 0
+S
+#13
+air elemental~
+An air elemental~
+A small tornado spins here
+~
+It looks vaguely man-shaped.
+~
+3 8 0 C
+8 0 2 8d8+0 2d10+0
+0 1562
+8 8 0
+10 10 10 10 10 10 13
+0 0 0 0 0
+26 3 198 200 1 1 1000
+6 5 0 96 0 1 0 0
+S
+#20
+demon vrock~
+A vrock~
+A Vrock stands here
+~
+It is a vulture/human creature. Extremely ugly, and nasty
+~
+39 40 -666 C
+16 0 -16 16d8+38 1d6+0
+0 30115
+8 8 0
+11 10 10 10 11 11 13
+0 0 0 0 0
+21 3 440 527 1 1 5000
+16 2 0 0 9 0 0 0
+S
+#21
+demon hezrou~
+A hezrou~
+A demon Hezrou stands here.
+~
+Not unlike A large toad/man
+~
+39 40 -666 C
+17 0 -19 17d8+21 1d6+0
+0 35388
+8 8 0
+10 11 10 10 11 11 13
+0 0 0 0 0
+21 3 455 545 1 1 3000
+17 2 0 0 9 0 0 0
+S
+#22
+demon glabrezu~
+A glabrezu~
+A demon Glabrezu stands here
+~
+I forget what this one looks like.
+~
+39 40 -666 C
+18 0 -22 18d8+13 1d8+0
+0 36862
+8 8 0
+11 10 10 10 11 11 13
+0 0 0 0 0
+21 3 470 563 1 1 5000
+18 2 0 0 9 0 0 0
+S
+#23
+demon nalfeshnee~
+Nalfeshnee~
+Nalfeshnee stands here
+~
+This one is big and mean looking.
+~
+39 40 -666 C
+19 0 -20 19d8+16 1d4+0
+0 62785
+8 8 0
+10 11 11 11 10 10 13
+0 0 0 0 0
+21 3 485 581 1 1 4000
+19 2 0 6 24585 0 0 0
+S
+#24
+demon marilith~
+Marilith~
+Marilith slithers here
+~
+A woman with 6 arms and a snake's tail
+~
+39 40 -666 D
+15 0 -20 15d8+0 2d4+0
+0 37234
+8 8 2
+10 10 10 10 10 10 13
+0 0 0 0 0
+21 3 425 509 1 1 7000
+17 2 0 6 8201 0 0 0
+2 0 0
+S
+#25
+demon balor~
+Balor~
+Balor stands here, surrounded by electrical fire
+~
+He is very large, and looks rather deadly
+~
+39 40 -666 D
+20 0 -22 20d8+0 2d12+0
+0 86158
+8 8 0
+12 11 12 11 11 12 13
+0 0 0 0 0
+21 3 500 599 1 1 1000
+20 4 0 6 8201 0 0 0
+1 0 0
+S
+#32
+delfin guildmaster master~
+the Thief Guildmaster~
+Delfin the Rogue Guildmaster is standing here.
+~
+You realize that whenever your guildmaster moves, you fail to notice it -
+the way of the true thief. She is dressed in poor clothing, having
+the appearance of a beggar.
+~
+1027 0 1000 C
+60 0 -10 60d8+0 5d5+0
+1758 314394
+8 8 2
+11 14 16 13 16 10 13
+0 0 0 0 0
+1 2 198 200 1 1 3000
+30 6 -1073739777 15 2160 0 0 0
+T 0 1758 0 0 0 -1
+S
+#38
+golem armor~
+the armor golem~
+An armor golem is standing here, unmoving
+~
+This creature seems to have been made out of many pieces of normal
+armor.   You can see that the armor is empty, however
+~
+3 0 0 D
+10 0 10 10d8+6 1d4+0
+0 1850
+8 8 0
+10 10 10 10 10 10 13
+0 0 0 0 0
+7 3 198 200 1 1 1000
+10 2 0 0 8992 128 0 0
+2 0 0
+S
+#40
+fire elemental~
+A fire elemental~
+A huge fire burns here
+~
+It looks vaguely man-shaped
+~
+3 8 0 C
+24 0 2 24d8+82 3d8+0
+0 23550
+8 8 0
+12 11 10 12 11 11 13
+0 0 0 0 0
+26 3 198 200 1 1 1000
+16 8 0 0 24577 2 0 0
+S
+#41
+earth elemental~
+An earth elemental~
+A large earth elemental stands here
+~
+It looks vaguely man-shaped.
+~
+3 8 0 C
+24 0 2 24d8+72 4d8+0
+0 23950
+8 8 0
+11 12 10 10 12 11 13
+0 0 0 0 0
+26 3 198 200 1 1 1000
+16 8 0 32 24780 8 0 0
+S
+#42
+water elemental~
+A water elemental~
+A large water elemental stands here
+~
+It looks vaguely man-shaped.
+~
+3 8 0 C
+24 0 2 24d8+69 5d6+0
+0 23400
+8 8 0
+12 11 12 12 11 11 13
+0 0 0 0 0
+26 3 198 200 1 1 1000
+16 8 0 32 24576 2 0 0
+S
+#43
+air elemental~
+An air elemental~
+A small tornado spins here
+~
+It looks vaguely man-shaped.
+~
+3 8 0 C
+24 0 2 24d8+0 2d10+0
+0 23000
+8 8 0
+11 12 10 10 12 11 13
+0 0 0 0 0
+26 3 198 200 1 1 1000
+16 8 0 96 24576 1 0 0
+S
+#45
+sapling young~
+The young sapling, walking on dainty roots~
+A sapling stands here eye to eye with you.
+~
+Its roots are rather petite, and small parts of them are above ground.
+~
+3 32776 0 C
+6 0 4 6d8+12 1d2+0
+0 540
+8 8 0
+10 10 10 10 10 10 13
+0 0 0 0 0
+24 3 198 200 1 1 6000
+7 3 0 0 0 0 0 0
+S
+#46
+teen teenage tree~
+The teenage tree, walking on small roots~
+A tree stands here eyeing you defiantly.
+~
+Its roots are fairly small, and small parts of them are above ground.
+~
+3 32776 0 C
+12 0 2 12d8+0 1d3+0
+0 4208
+8 8 0
+10 10 10 10 10 10 13
+0 0 0 0 0
+24 3 198 200 1 1 6000
+10 3 0 0 0 0 0 0
+S
+#47
+young adult tree~
+The young adult tree, walking on medium roots~
+A young adult tree stands here looking down on you
+~
+Its roots are pretty normal sized, and some of them are above ground.
+~
+3 32776 0 C
+18 0 0 18d8+88 1d4+0
+0 10940
+8 8 0
+11 11 10 10 11 11 13
+0 0 0 0 0
+24 3 198 200 1 1 6000
+12 3 0 0 0 0 0 0
+S
+#48
+large adult tree~
+The large adult tree, walking on big roots~
+A large adult tree towers over you
+~
+Its roots are large, and much of them are above ground.
+~
+67108867 32776 0 C
+24 0 -2 24d8+190 1d5+0
+0 29350
+8 8 0
+10 12 11 10 10 12 13
+0 0 0 0 0
+24 3 198 200 1 1 6000
+15 3 0 0 0 0 0 0
+S
+#49
+tree ancient tree~
+a huge ancient tree~
+A huge, ancient tree towers above you.
+~
+Its roots are extremely big and large parts of them are above ground.
+
+>
+The enormous gray trunk shivers slightly, as if sighing deeply.
+~
+67108867 32776 0 D
+30 0 -4 30d8+367 1d6+0
+0 84400
+8 8 0
+12 10 13 11 13 11 13
+0 0 0 0 0
+24 3 198 200 1 1 6000
+17 3 0 0 0 0 0 0
+1 0 0
+S
+#0
+
+
+#OBJECTS
+#1
+padded leather boots~
+a pair of padded leather boots~
+A pair of padded leather boots lies here.~
+~
+9 0 65
+2 2 0 0
+2 10 2
+S
+#2
+cap leather training~
+a leather training cap~
+A leather training cap is lying on the ground.~
+~
+9 0 17
+1 1 0 0
+2 0 1
+S
+#3
+dagger training~
+a training dagger~
+A training dagger with a long thin blade is here.~
+~
+5 0 24577
+0 1 4 3
+1 0 10
+S
+#4
+sword small training~
+a small training sword~
+A small training sword lies here.~
+~
+5 0 8193
+0 1 6 3
+4 0 10
+E
+inscription~
+It says : May this sword be a good companion.
+~
+E
+sword small~
+The small sword seems to have an inscription of some sort.
+~
+S
+#5
+sword long training~
+a long training sword~
+A long training sword has been left here.~
+~
+5 0 8193
+0 1 8 4
+6 0 35
+S
+#6
+club wooden training~
+a wooden training club~
+A simple looking wooden training club is here.~
+~
+5 0 8193
+0 1 3 10
+3 0 5
+S
+#7
+warhammer hammer training~
+a training warhammer~
+A medium sized training warhammer is here.~
+~
+5 0 8193
+0 1 5 8
+5 0 10
+S
+#8
+shield wooden training~
+a training shield~
+A small training shield is lying on the ground.~
+~
+9 16384 513
+3 3 0 0
+4 0 10
+D
+53248 0
+E
+wooden shield~
+The shield is tough, and made from sturdy oak.
+~
+S
+#9
+jacket tough leather training~
+a leather training jacket~
+A tough leather training jacket is lying on the ground.~
+~
+9 0 9
+2 2 0 0
+6 0 5
+S
+#10
+jacket studded training~
+a studded leather training jacket~
+A studded leather training jacket is lying on the ground.~
+~
+9 16384 9
+3 3 0 0
+10 0 20
+D
+53248 0
+S
+#11
+jacket scale mail~
+a scale mail training jacket~
+A scale mail training jacket is lying on the ground.~
+~
+9 16826368 9
+4 4 0 0
+28 0 40
+D
+63488 0
+S
+#12
+bread complimentary~
+a complimentary bread~
+A complimentary bread has been left here.~
+~
+19 0 1
+12 0 0 0
+1 0 5
+S
+#13
+cup~
+a complimentary cup~
+A complimentary cup has been set here.~
+~
+17 0 1
+16 16 0 0
+1 0 1
+S
+#14
+small bag complimentary~
+a complimentary bag~
+A small complimentary bag.~
+~
+15 0 540673
+20 0 0 0
+1 0 5
+S
+#15
+property deed %d %s~
+the deed for %s~
+The deed for %s.~
+~
+47 0 16385
+0 0 0 0
+1 1500 150
+S
+#16
+medallion rat~
+A rat-shaped medallion~
+A rat-shaped medallion is lying here~
+You hear squeaking noises nearby
+~
+9 0 9
+15 0 0 0
+1 0 100
+A
+17 -10
+A
+80 1
+S
+#17
+potion vial blue~
+A glowing blue vial~
+A glowing blue vial lies here~
+~
+10 64 16385
+12 -1 -1 -1
+1 1800 950
+'mana' 'NONE' 'NONE'
+S
+#18
+staff wooden~
+a wooden staff~
+A simple looking wooden staff is here.~
+~
+5 0 8193
+0 1 5 1
+3 0 5
+S
+#19
+pants leather~
+a pair of leather pants~
+A pair of leather pants is lying on the ground.~
+~
+9 0 33
+2 2 0 0
+2 5 1
+S
+#20
+light ball~
+a bright ball of light~
+You see a bright ball of light~
+~
+1 65 16385
+0 0 -1 0
+1 40 10
+E
+light~
+Auugh!  You're blinded.!  The agony!!!!!!!
+~
+S
+#21
+berries roots food~
+a bunch of berries and roots~
+A bunch of berries and roots have been left here.~
+~
+19 0 1
+12 0 0 0
+1 0 5
+S
+#22
+goodberry berry blue blueberry~
+a plump blueberry~
+A scrumptious blueberry lies here.~
+~
+19 0 1
+12 0 0 0
+1 0 5
+A
+82 16
+S
+#23
+amulet burgundy~
+a small burgundy amulet~
+You barely notice a small amulet discarded in the corner.~
+~
+11 4288 5
+0 0 0 0
+1 1000 1000
+A
+1 2
+S
+#24
+boots combat steel toed~
+a pair of vicious looking steel toed combat boots~
+A large pair of menacing boots are here in front of you.~
+~
+11 0 65
+0 0 0 0
+10 1000 10000
+D
+32 0
+A
+19 3
+A
+47 50
+A
+36 50
+S
+#26
+jack daniels fifth~
+a fifth of Jack Daniels~
+There is a bottle with the words "Old #7" on it lying here.~
+~
+17 0 1
+500 500 5 0
+4 150 150
+E
+whiskey~
+Wow! You really lucked out this time. This is an expensive draught, but well
+worth the asking price. You smack your lips in anticipation.
+~
+S
+#27
+heal_potion bubbly red brown potion~
+a bubbly brown potion~
+A bubbly brown potion has been left here~
+~
+10 0 1
+25 -1 -1 -1
+1 2100 2100
+'heal' 'NONE' 'NONE'
+S
+#28
+potion light brown~
+a light brown potion~
+A light brown potion lies half buried here.~
+~
+10 0 1
+27 -1 -1 -1
+1 50000 2000
+'stone skin' 'NONE' 'NONE'
+S
+#30
+scrap scraps pile~
+A pile of scraps~
+There is a bunch of scraps here, piled up into a very very very small heap~
+~
+13 0 16385
+5 0 0 0
+1 0 5
+S
+#31
+portal gate~
+A misty portal~
+A misty portal floats here, beckoning you to enter, if you dare!~
+~
+13 0 0
+0 0 0 0
+1000 0 -1
+S
+#32
+portal gate~
+An ethereal gate~
+An ethereal gate floats here, shrouded in elemental mists!~
+~
+13 0 0
+6 3224 0 0
+1000 0 -1
+E
+portal gate~
+Through the fog of the gate, you can faintly see Public Square~
+S
+#37
+ice blade~
+an Ice Blade~
+An Ice Blade lies here.~
+~
+5 0 8193
+0 1 8 3
+8 20000 10000
+A
+80 4
+S
+#38
+chain elven~
+a shirt of black and gold elven chain~
+A shirt of black and gold elven chain lies here.~
+~
+9 16384 9
+7 7 0 0
+5 1000 200
+D
+53248 0
+S
+#39
+sword short~
+a short sword~
+A short sword lies here.~
+~
+5 25379072 24577
+0 1 6 12
+4 9000 4500
+D
+120321 0
+A
+80 3
+A
+32 10
+S
+#41
+picks lock~
+a set of lock-picks~
+A bunch of small, thin pieces of metal lie on the ground.~
+~
+18 0 16385
+101 0 0 0
+1 1000 500
+A
+33 15
+S
+#42
+knife razor sharp~
+a knife~
+A small, razor-sharp knife lies here.~
+~
+5 0 8193
+0 1 4 12
+1 400 200
+A
+35 15
+S
+#43
+tracker sword~
+Tracker~
+Tracker lies here.~
+~
+5 66 8193
+0 1 8 4
+9 2500 1200
+A
+34 75
+S
+#44
+long sword~
+a long sword~
+A long sword lies here.~
+~
+5 64 8193
+0 1 8 4
+9 2000 500
+A
+80 1
+S
+#45
+short sword~
+a short sword~
+A short sword lies here.~
+~
+5 64 24577
+0 1 6 4
+6 2000 500
+A
+80 1
+S
+#46
+axe battle battleaxe~
+a battle axe~
+A battle axe lies here.~
+~
+5 64 8193
+0 1 10 2
+15 2000 700
+A
+80 1
+S
+#47
+spear~
+a spear~
+A spear lies here.~
+~
+5 64 8193
+0 1 8 12
+4 2000 500
+A
+80 1
+S
+#48
+spear~
+a spear~
+A spear lies here.~
+~
+5 64 8193
+0 1 8 12
+4 300 50
+S
+#49
+mace~
+a mace~
+A mace lies here.~
+~
+5 64 8193
+0 2 4 10
+1 80 10
+S
+#0
+
+
+#ROOMS
+#1
+Limbo~
+You are floating in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light, which fades into the relative
+darkness around you without any trace of edges or shadow.
+   There is a "No Tipping" notice pinned to the darkness.
+~
+0 3155081 1
+D4
+Temple~
+~
+0 0 98
+S
+#2
+Hell~
+You can feel a very warm heat radiating from all directions in this
+most awful of places.
+~
+0 3153928 0
+D0
+~
+~
+0 0 2
+D1
+~
+~
+0 0 2
+D2
+~
+~
+0 0 2
+D3
+~
+~
+0 0 2
+S
+#3
+Storage~
+This room is where polymorphed characters bodies are stored. 
+an indication of an attempt at cheating.  PS.  This is a death room to keep
+the mortals out.
+~
+0 3154439 1
+S
+#4
+Storage~
+This is where link-dead characters stuff is kept.  However, It could be
+an indication of an attempt at cheating.  PS.  This is a death room to keep
+the mortals out.
+~
+0 1049095 1
+S
+#5
+Silverstone Coach~
+You are now at the Temple of Silverstone.  
+        Please exit to the east.
+        Next stop: The Magic Shop
+~
+0 12582920 0 30 6 0 1000 0 0
+D1
+~
+~
+0 0 98
+S
+#6
+Silverstone Coach~
+You are now at The Magic Shop.
+        Please exit to the east.
+        Next stop: The Dark River
+~
+0 12582920 0 30 7 0 1000 0 0
+D1
+~
+~
+0 0 3283
+S
+#7
+Silverstone Coach~
+You are now at the Dark River
+        Please exit to the east.
+        Next stop: The Shire
+~
+0 12582920 0 30 9 0 1000 0 0
+D1
+~
+~
+0 0 6144
+S
+#8
+Silverstone Coach~
+You are now at Orshingal
+        Please exit to the east.
+        Next stop: Arachnos
+~
+0 12582920 0 30 10 0 1000 0 0
+D1
+~
+~
+0 0 21001
+S
+#9
+Silverstone Coach~
+You are now at the Shire
+        Please exit to the east.
+        Next stop: Mordilnia
+~
+0 12582920 0 30 14 0 1000 0 0
+D1
+~
+~
+0 0 1103
+S
+#10
+Silverstone Coach~
+You are now at Arachnos
+        Please exit to the east.
+        Next stop: Castle Python
+~
+0 12582920 0 30 11 0 1000 0 0
+D1
+~
+~
+0 0 20001
+S
+#11
+Silverstone Coach~
+You are now at Castle Python
+        Please exit to the east.
+        Next stop: New Thalos
+~
+0 12582920 0 30 13 0 1000 0 0
+D1
+~
+~
+0 0 15004
+S
+#12
+Silverstone Coach~
+You are now at Malaria.
+        Please exit east.
+        Next stop: The Temple of Lanthander
+~
+0 12582920 0 30 5 0 1000 0 0
+D1
+~
+~
+0 0 7540
+S
+#13
+Silverstone Coach~
+You are now at New Thalos.
+        Please exit east.
+        Next stop: Malaria
+~
+0 12582920 0 30 12 0 1000 0 0
+D1
+~
+~
+0 0 13423
+S
+#14
+Silverstone Coach~
+You are now at Mordilnia.
+        Please exit east.
+        Next stop: The Casino
+~
+0 12582912 0 30 15 0 1000 0 0
+D1
+~
+~
+0 0 18282
+S
+#15
+Silverstone Coach~
+You are now at &YThe Casino. 
+        &wPlease exit east.
+        Next stop: The City of Orshingal
+~
+0 12582912 0 30 8 0 1000 0 0
+D1
+~
+~
+0 0 29951
+S
+#22
+Storage -- Event Storage~
+This room has been requisitioned by management for use as a
+storage room for 'event items'.
+ 
+DO NOT BRING MORTALS INTO THIS ROOM! DEATH ROOM!
+ 
+For that matter you probably don't belong here either, so scram.
+~
+0 6 0
+S
+#23
+DM's Room~
+DM's other room, well more of a conference room.
+~
+0 524 0
+S
+#30
+New Thalos Coachstation~
+The coach has arvied, so climb on up.
+~
+0 4 0
+D2
+~
+~
+0 0 13423
+D4
+~
+~
+0 0 13
+S
+#31
+Shire Coachstation~
+A stout halfling ushers you up a ramp onto the coach.
+~
+0 4 0
+D2
+~
+~
+0 0 1103
+D4
+~
+~
+0 0 9
+S
+#40
+Donate Room~
+Empty
+~
+0 12 0
+S
+#48
+Player Challenge Room~
+Empty
+~
+0 12 0
+S
+#49
+Monster Storage~
+This is where the errant monsters are stored.  I don't know why they
+are in here, but they seem to show up often enough.
+~
+0 12 0
+S
+#0
+
+
+#RESETS
+M 0 3 1 2
+O 0 2 8 40
+O 0 3 3 40
+O 0 4 3 40
+O 0 5 4 40
+O 0 6 4 40
+O 0 7 4 40
+O 0 8 8 40
+O 0 9 8 40
+O 0 10 8 40
+O 0 11 3 40
+O 0 14 8 40
+O 0 13 10 40
+O 0 13 10 40
+O 0 12 15 40
+O 0 2 8 40
+O 0 3 3 40
+O 0 4 3 40
+O 0 5 4 40
+O 0 6 4 40
+O 0 7 4 40
+O 0 8 8 40
+O 0 9 8 40
+O 0 10 8 40
+O 0 11 3 40
+O 0 1 8 40
+O 0 19 8 40
+O 0 20 10 40
+O 0 46 1 40
+O 0 47 1 40
+O 0 49 1 40
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  2 spec_Ringwraith
+S
+
+
+#$

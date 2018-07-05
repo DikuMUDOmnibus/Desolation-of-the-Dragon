@@ -1,0 +1,34 @@
+Installing:
+
+1.  Uncompress the package
+
+2.  cd into the dotd-x.x.x directory.
+
+3.  Run: ./configure
+	If you know what you're doing (ie you've seen a configure script
+	before) --help will list some things you can customize
+
+4.  Run: make
+
+If there are no errors the code should be compiled.
+
+To run the mud for the first time, to see if it runs properly:
+
+5.  Run: cd area
+
+6.  Run: ../src/dotd -v
+
+The mud will log it's output and if it says 'Ready to run' everything
+should be good to go.  You can now 'Ctrl+C' it and run it through the
+normal startup script:
+
+7.  Run: cd ../src
+
+8.  Run: nohup ./startup &
+
+
+The configure script has been tested on Linux, FreeBSD, and Solaris but
+close variants should work.  If you get errors compiling, contact
+dotd@dotd.com.
+
+Log in to port 4000 with the account 'Admin' password 'blah1'

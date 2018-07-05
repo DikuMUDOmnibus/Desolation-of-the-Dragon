@@ -1,0 +1,5 @@
+#filename low_r_vnum hi_r_vnum low_m_vnum hi_m_vnum low_o_vnum hi_o_vnum
+help.are 536870912 0 0 0 0 0 0
+Limbo.are 1610612736 1 49 1 49 1 49
+TempleLanthander.are 1610612736 50 175 50 199 50 175
+$

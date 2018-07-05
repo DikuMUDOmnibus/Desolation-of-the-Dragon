@@ -1,0 +1,17 @@
+ResortMud 4.0b Intermud-3
+-------------------------
+
+NOTE: Unless the IMC2 2.00g code is either removed, or upgraded to the
+      IMC2 3.00 MUD-Net code, DO NOT apply the I3 code to this codebase.
+      The memory handlers in old versions of IMC2 are broken and cause crashes.
+
+In i3cfg.h, in the #ifdef I3SMAUG section:
+
+Find:
+   #define CH_CLANLEADRANK(ch) ((ch)->pcdata->clan->leadrank)
+   #define CH_CLANONERANK(ch)  ((ch)->pcdata->clan->onerank)
+   #define CH_CLANTWORANK(ch)  ((ch)->pcdata->clan->tworank)
+Replace with:
+   #define CH_CLANLEADRANK(ch) ( "Leader" )
+   #define CH_CLANONERANK(ch)  ( "First Officer" )
+   #define CH_CLANTWORANK(ch)  ( "Second Officer" )

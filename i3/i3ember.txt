@@ -1,0 +1,37 @@
+EmberMUD 0.9.44a Intermud 3
+---------------------------
+
+In step 3b, when asked to add the #include for i3.h, look in config.h
+and follow the directions accordingly. Then return to merc.h to continue.
+
+In the comm.c section, when looking for act_new, you need to find act_string
+instead and follow the directions accordingly.
+
+In i3.c, remove the #include segment for tables.h
+And on line 152, remove the code for the wiznet call since Ember doesn't have wiznet.
+
+In i3cfg.h, in the #ifdef I3ROM section:
+
+Add:
+   #define PLAYER_DIR sysconfig.player_dir
+
+Find:
+   #define I3STRFREE free_string
+Replace with:
+   #define I3STRFREE(point) free_string( &(point) )
+
+Find:
+   #define CH_CLAN(ch)		((ch)->clan)
+   #define CH_CLANNAME(ch)	(clan_table[(ch)->clan].who_name)
+Replace with:
+   #define CH_CLAN(ch)		( 0 == 1 )
+   #define CH_CLANNAME(ch)	( "" )
+
+Find:
+   #define CH_CLASSNAME(ch)     (class_table[(ch)->class].who_name)
+   #define CH_RANK(ch)          (title_table[(ch)->class][(ch)->level][(ch)->sex == SEX_FEMALE ? 1 : 0])
+   #define CH_AFK(ch)		(IS_SET((ch)->comm, COMM_AFK ))
+Replace with:
+   #define CH_CLASSNAME(ch)     (class_table[(ch)->Class].who_name)
+   #define CH_RANK(ch)        (class_table[(ch)->Class].who_name)
+   #define CH_AFK(ch)		(IS_SET((ch)->act, PLR_AFK ))
